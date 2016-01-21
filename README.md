@@ -4,6 +4,10 @@
 [![NPM](https://nodei.co/npm/boscode-learn.png?downloads=true&downloadRank=true)](https://nodei.co/npm/boscode-learn/)
 [![NPM](https://nodei.co/npm-dl/boscode-learn.png?months=6&height=3)](https://nodei.co/npm/boscode-learn/)
 
+## Content
+[Installation]
+
+
 ## Installation
 
 1. Create a github account: https://github.com/
@@ -22,29 +26,30 @@
 
 * `pwd`: 
 ```
+drludwig:~/workspace (master) $ pwd
 /home/ubuntu/workspace
 ```
 print working directory
 
 * `ll`:
 ```
-total 20900
-drwxr-xr-x  7 ubuntu ubuntu     4096 Jan 21 01:39 ./
-drwxr-xr-x 21 ubuntu ubuntu     4096 Jan 21 01:39 ../
-drwxr-xr-x  3 ubuntu ubuntu     4096 Jan 21 01:35 .c9/
--rw-r--r--  1 ubuntu ubuntu      208 Jan 21 01:35 .editorconfig
-drwxr-xr-x  8 ubuntu ubuntu     4096 Jan 21 01:35 .git/
--rw-r--r--  1 ubuntu ubuntu      532 Jan 21 01:35 .gitignore
--rw-r--r--  1 ubuntu ubuntu      249 Jan 21 01:35 .jshintrc
--rw-r--r--  1 ubuntu ubuntu 21339251 Jan 21 01:35 .ntvs_analysis.dat
-drwxr-xr-x  4 ubuntu ubuntu     4096 Jan 21 01:35 .vs/
--rw-r--r--  1 ubuntu ubuntu     1075 Jan 21 01:35 LICENSE
--rw-r--r--  1 ubuntu ubuntu      464 Jan 21 01:35 README.md
--rw-r--r--  1 ubuntu ubuntu     3850 Jan 21 01:35 boscode-learn.njsproj
--rw-r--r--  1 ubuntu ubuntu     2280 Jan 21 01:35 boscode-learn.sln
-drwxr-xr-x  3 ubuntu ubuntu     4096 Jan 21 01:35 code/
-drwxr-xr-x  3 ubuntu ubuntu     4096 Jan 21 01:39 node_modules/
--rw-r--r--  1 ubuntu ubuntu      621 Jan 21 01:35 package.json
+drludwig:~/workspace (master) $ ll
+total 64
+drwxr-xr-x  7 ubuntu ubuntu 4096 Jan 21 01:57 ./
+drwxr-xr-x 21 ubuntu ubuntu 4096 Jan 21 01:57 ../
+drwxr-xr-x  3 ubuntu ubuntu 4096 Jan 21 01:56 .c9/
+-rw-r--r--  1 ubuntu ubuntu  208 Jan 21 01:56 .editorconfig
+drwxr-xr-x  8 ubuntu ubuntu 4096 Jan 21 01:56 .git/
+-rw-r--r--  1 ubuntu ubuntu 4290 Jan 21 01:56 .gitignore
+-rw-r--r--  1 ubuntu ubuntu  249 Jan 21 01:56 .jshintrc
+drwxr-xr-x  4 ubuntu ubuntu 4096 Jan 21 01:56 .vs/
+-rw-r--r--  1 ubuntu ubuntu 1075 Jan 21 01:56 LICENSE
+-rw-r--r--  1 ubuntu ubuntu 2284 Jan 21 01:56 README.md
+-rw-r--r--  1 ubuntu ubuntu 3850 Jan 21 01:56 boscode-learn.njsproj
+-rw-r--r--  1 ubuntu ubuntu  971 Jan 21 01:56 boscode-learn.sln
+drwxr-xr-x  3 ubuntu ubuntu 4096 Jan 21 01:56 code/
+drwxr-xr-x  3 ubuntu ubuntu 4096 Jan 21 01:57 node_modules/
+-rw-r--r--  1 ubuntu ubuntu  621 Jan 21 01:56 package.json
 ```
 list files
 
@@ -54,9 +59,90 @@ list files
 {yourname}:~/workspace/code (master) $ 
 ```
 
-## Run example code
+## Example code
 
+### 01 Console output: Display
+1. Open your cloud 9 workspace (see above). In the file tree open the folder: `~/workspace/code/examples/01`
+2. Double click the file `app.js` inside this folder. Observe the code:
 
 ```    
+var boscode = require('boscode');
 
+boscode.display('Hello world');
+
+boscode.display('The answer is ', 4, 'km');
 ```
+3. Double click the file `app.js` and choose `Open Terminal Here`.
+4. Type `ll` to see the content of the current directory:
+```
+drludwig:~/workspace/code/examples/01 (master) $ ll
+total 12
+drwxr-xr-x  2 ubuntu ubuntu 4096 Jan 21 01:56 ./
+drwxr-xr-x 11 ubuntu ubuntu 4096 Jan 21 01:56 ../
+-rw-r--r--  1 ubuntu ubuntu  115 Jan 21 01:56 app.js
+```
+5. Type `node app.js` to run this code:
+```
+drludwig:~/workspace/code/examples/01 (master) $ node app.js 
+Hello world
+The answer is 4km
+```
+6. Follow similar procedure to see/run the other code examples.
+
+See also: https://github.com/Quobject/boscode#display
+
+
+### 02 Console input: Get
+In you cloud 9 workspace run the file 
+`https://github.com/Quobject/boscode-learn/blob/master/code/examples/02/app.js`. 
+
+See also: https://github.com/Quobject/boscode#get
+
+### 03 Creating a sequential file
+In you cloud 9 workspace run the file  
+`https://github.com/Quobject/boscode-learn/blob/master/code/examples/03/app.js`,
+
+See also: https://github.com/Quobject/boscode#creating-a-sequential-file
+
+
+### 04 Printing the contents of a file using sentinel value
+In you cloud 9 workspace run the file  
+`https://github.com/Quobject/boscode-learn/blob/master/code/examples/04/app.js`,
+
+See also: https://github.com/Quobject/boscode#printing-the-contents-of-a-file-using-sentinel-value
+
+
+### 05 Printing the contents of a file using EOF (end of file)
+In you cloud 9 workspace run the file  
+`https://github.com/Quobject/boscode-learn/blob/master/code/examples/05/app.js`,
+
+See also: https://github.com/Quobject/boscode#printing-the-contents-of-a-file-using-eof-end-of-file
+
+
+### 06 Appending rows to an existing sequential file
+In you cloud 9 workspace run the file  
+`https://github.com/Quobject/boscode-learn/blob/master/code/examples/06/app.js`,
+
+See also: https://github.com/Quobject/boscode#appending-rows-to-an-existing-sequential-file
+
+
+### 07 Creating a relative file
+In you cloud 9 workspace run the file  
+`https://github.com/Quobject/boscode-learn/blob/master/code/examples/07/app.js`,
+
+See also: https://github.com/Quobject/boscode#creating-a-relative-file
+
+
+### 08 Reading from a relative file
+In you cloud 9 workspace run the file  
+`https://github.com/Quobject/boscode-learn/blob/master/code/examples/08/app.js`,
+
+See also: https://github.com/Quobject/boscode#reading-from-a-relative-file
+
+
+### 09 Updating records in a relative file
+In you cloud 9 workspace run the file  
+`https://github.com/Quobject/boscode-learn/blob/master/code/examples/09/app.js`,
+
+See also: https://github.com/Quobject/boscode#updating-records-in-a-relative-file
+
