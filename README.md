@@ -5,7 +5,7 @@
 [![NPM](https://nodei.co/npm-dl/boscode-learn.png?months=6&height=3)](https://nodei.co/npm/boscode-learn/)
 
 ## Content
-[Installation]
+[Installation](#Installation)
 
 
 ## Installation
