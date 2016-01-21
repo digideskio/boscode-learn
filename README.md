@@ -177,11 +177,11 @@ Here's an example of defining a variable, making it reference a specific value:
 var example = 'some string';
 ```
 
-#### NOTE 
+###### NOTE 
 
 A variable is **declared** using `var` and uses the equals sign to **define** the value that it references. This is colloquially known as "Making a variable equal a value".
 
-#### The challenge:
+###### The challenge:
 
 
 In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/tasks/01/app.js`.
@@ -194,8 +194,8 @@ Then use `boscode.display()` to print the `example` variable to the console.
 
 Check to see if your program is correct.
 
-In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/tasks/01/pseudocode.txt`. Convert your javascript file `app.js` into the [bos pseudocode](https://github.com/Quobject/boscode/blob/master/docs/pseudocode.md) equivalent.
 
+___
 
 ### 02 Strings
 
@@ -209,27 +209,27 @@ It can be single or double quotes:
 "this is also a string"
 ```
 
-## NOTE
+###### NOTE
 
 Try to stay consistent. In this workshop we'll only use single quotes.
 
-## The challenge:
+###### The challenge:
 
-For this challenge, create a file named `strings.js`.
+In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/tasks/02/app.js`.
 
-In that file create a variable named `someString` like this:
+In that file declare a variable named `someString`:
 
 ```js
 var someString = 'this is a string';
 ```
 
-Use `console.log` to print the variable **someString** to the terminal.
+Use `boscode.display()` to print the variable **someString** to the terminal.
 
-Check to see if your program is correct by running this command:
-
-`javascripting verify strings.js`
+Check to see if your program is correct.
 
 
+
+___
 
 ### 03 String length
 
@@ -242,26 +242,28 @@ var example = 'example string';
 example.length
 ```
 
-## NOTE
+#### NOTE
 
 Make sure there is a period between `example` and `length`.
 
 The above code will return a **number** for the total number of characters in the string.
 
 
-## The challenge:
+#### The challenge:
 
-Create a file named `string-length.js`.
+In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/tasks/03/app.js`.
 
 In that file, create a variable named `example`.
 
 **Assign the string `'example string'` to the variable `example`.**
 
-Use `console.log` to print the **length** of the string to the terminal.
+Use `boscode.display()` to print the **length** of the string to the terminal.
 
-**Check to see if your program is correct by running this command:**
+Check to see if your program is correct.
 
-`javascripting verify string-length.js`
+
+
+___
 
 
 ### 04 Revising strings
@@ -275,26 +277,28 @@ Here is an example using the `.replace()` method:
 ```js
 var example = 'this example exists';
 example = example.replace('exists', 'is awesome');
-console.log(example);
+boscode.display(example);
 ```
 
 Note that to change the value that the `example` variable references, we need  
 to use the equals sign again, this time with the `example.replace()` method to  
 the right of the equals sign.
 
-## The challenge:
+#### The challenge:
 
-Create a file named `revising-strings.js`.
+In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/tasks/04/app.js`.
 
 Define a variable named `pizza` that references this string: `'pizza is alright'`
 
 Use the `.replace()` method to change `alright` to `wonderful`.
 
-Use `console.log()` to print the results of the `.replace()` method to the terminal.
+Use `boscode.display()` to print the results of the `.replace()` method to the terminal.
 
-Check to see if your program is correct by running this command:
+Check to see if your program is correct.
 
-`javascripting verify revising-strings.js`
+
+
+___
 
 
 ### 05 Numbers
@@ -303,19 +307,20 @@ Numbers can be integers, like `2`, `14`, or `4353`, or they can be decimals,
 also known as floats, like `3.14`, `1.5`, or `100.7893423`.
 Unlike Strings, Numbers do not need to have quotes.
 
-## The challenge:
+#### The challenge:
 
-Create a file named `numbers.js`.
+In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/tasks/05/app.js`.
+
 
 In that file define a variable named `example` that references the integer `123456789`.
 
-Use `console.log()` to print that number to the terminal.
+Use `boscode.display()` to print that number to the terminal.
 
-Check to see if your program is correct by running this command:
-
-`javascripting verify numbers.js`
+Check to see if your program is correct.
 
 
+
+___
 ### 06 Rounding numbers
 
 We can do basic math using familiar operators like `+`, `-`, `*`, `/`, and `%`.
@@ -324,9 +329,10 @@ For more complex math, we can use the `Math` object.
 
 In this challenge we'll use the `Math` object to round numbers.
 
-## The challenge:
+#### The challenge:
 
-Create a file named `rounding-numbers.js`.
+In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/tasks/06/app.js`.
+
 
 In that file define a variable named `roundUp` that references the float `1.5`.
 
@@ -340,15 +346,13 @@ Math.round(0.5);
 
 Define a second variable named `rounded` that references the output of the `Math.round()` method, passing in the `roundUp` variable as the argument.
 
-Use `console.log()` to print that number to the terminal.
+Use `boscode.display()` to print that number to the terminal.
 
-Check to see if your program is correct by running this command:
-
-```bash
-javascripting verify rounding-numbers.js
-```
+Check to see if your program is correct.
 
 
+
+___
 
 ### 07 Number to string
 
@@ -361,23 +365,21 @@ var n = 256;
 n = n.toString();
 ```
 
-## The challenge:
+#### The challenge:
 
-Create a file named `number-to-string.js`.
+In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/tasks/07/app.js`.
+
 
 In that file define a variable named `n` that references the number `128`;
 
 Call the `.toString()` method on the `n` variable.
 
-Use `console.log()` to print the results of the `.toString()` method to the terminal.
+Use `boscode.display()` to print the results of the `.toString()` method to the terminal.
 
-Check to see if your program is correct by running this command:
-
-```bash
-javascripting verify number-to-string.js
-```
+Check to see if your program is correct.
 
 
+___
 
 ### 08 If statement
 
@@ -387,9 +389,9 @@ A conditional statement looks like this:
 
 ```js
 if (n > 1) {
-  console.log('the variable n is greater than 1.');
+  boscode.display('the variable n is greater than 1.');
 } else {
-  console.log('the variable n is less than or equal to 1.');
+  boscode.display('the variable n is less than or equal to 1.');
 }
 ```
 
@@ -397,23 +399,21 @@ Inside parentheses you must enter a logic statement, meaning that the result of 
 
 The else block is optional and contains the code that will be executed if the statement is false.
 
-## The challenge:
+#### The challenge:
 
-Create a file named `if-statement.js`.
+In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/tasks/08/app.js`.
+
 
 In that file, declare a variable named `fruit`.
 
 Make the `fruit` variable reference the value **orange** with the type of **String**.
 
-Then use `console.log()` to print "**The fruit name has more than five characters."** if the length of the value of `fruit` is greater than five.
+Then use `boscode.display()` to print "**The fruit name has more than five characters."** if the length of the value of `fruit` is greater than five.
 Otherwise, print "**The fruit name has five characters or less.**"
 
-Check to see if your program is correct by running this command:
+Check to see if your program is correct.
 
-```bash
-javascripting verify if-statement.js
-```
-
+___
 
 ### 09 For loop
 
@@ -422,7 +422,7 @@ For loops allow you to repeatedly run a block of code a certain number of times.
 ```js
 for (var i = 0; i < 10; i++) {
   // log the numbers 0 through 9
-  console.log(i)
+  boscode.display(i)
 }
 ```
 
@@ -432,9 +432,10 @@ The second part, `i < 10`, is checked at the beginning of every loop iteration b
 
 The final part, `i++`, is executed at the end of every loop. This increases the variable `i` by 1 after each loop. Once `i` reaches `10`, the loop will exit.
 
-## The challenge:
+#### The challenge:
 
-Create a file named `for-loop.js`.
+In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/tasks/09/app.js`.
+
 
 In that file define a variable named `total` and make it equal the number `0`.
 
@@ -448,14 +449,12 @@ On each iteration of the loop, add the number `i` to the `total` variable. To do
 total += i;
 ```
 
-After the for loop, use `console.log()` to print the `total` variable to the terminal.
+After the for loop, use `boscode.display()` to print the `total` variable to the terminal.
 
-Check to see if your program is correct by running this command:
+Check to see if your program is correct.
 
-```bash
-javascripting verify for-loop.js
-```
 
+___
 
 ### 10 Arrays
 
@@ -465,20 +464,19 @@ An array is a list of values. Here's an example:
 var pets = ['cat', 'dog', 'rat'];
 ```
 
-### The challenge:
+##### The challenge:
 
-Create a file named `arrays.js`.
+In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/tasks/10/app.js`.
+
 
 In that file define a variable named `pizzaToppings` that references an array that contains three strings in this order: `tomato sauce, cheese, pepperoni`.
 
-Use `console.log()` to print the `pizzaToppings` array to the terminal.
+Use `boscode.display()` to print the `pizzaToppings` array to the terminal.
 
-Check to see if your program is correct by running this command:
+Check to see if your program is correct.
 
-```bash
-javascripting verify arrays.js
-```
 
+___
 
 ### 11 Array filtering
 
@@ -500,9 +498,10 @@ var filtered = pets.filter(function (pet) {
 
 The `filtered` variable will now only contain `cat` and `dog`.
 
-## The challenge:
+#### The challenge:
 
-Create a file named `array-filtering.js`.
+In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/tasks/11/app.js`.
+
 
 In that file, define a variable named `numbers` that references this array:
 
@@ -520,14 +519,12 @@ function evenNumbers (number) {
 }
 ```
 
-Use `console.log()` to print the `filtered` array to the terminal.
+Use `boscode.display()` to print the `filtered` array to the terminal.
 
-Check to see if your program is correct by running this command:
+Check to see if your program is correct.
 
-```bash
-javascripting verify array-filtering.js
-```
 
+___
 
 ### 12 Accessing array values
 
@@ -541,7 +538,7 @@ Here is an example:
 ```js
 var pets = ['cat', 'dog', 'rat'];
 
-console.log(pets[0]);
+boscode.display(pets[0]);
 ```
 
 The above code will print the first element of `pets` array - string `cat`.
@@ -553,17 +550,18 @@ Dot notation is invalid.
 Valid notation:
 
 ```js
-console.log(pets[0]);
+boscode.display(pets[0]);
 ```
 
 Invalid notation:
 ```
-console.log(pets.1);
+boscode.display(pets.1);
 ```
 
-## The challenge:
+#### The challenge:
 
-Create a file named `accessing-array-values.js`.
+In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/tasks/12/app.js`.
+
 
 In that file, define array `food` :
 ```js
@@ -571,14 +569,12 @@ var food = ['apple', 'pizza', 'pear'];
 ```
 
 
-Use `console.log()` to print the `second` value of array to the terminal.
+Use `boscode.display()` to print the `second` value of array to the terminal.
 
-Check to see if your program is correct by running this command:
+Check to see if your program is correct.
 
-```bash
-javascripting verify accessing-array-values.js
-```
 
+___
 
 ### 13 Looping through arrays
 
@@ -602,9 +598,9 @@ greetings[1];
 
 So inside a **for loop** we would use the `i` variable inside the square brackets instead of directly using an integer.
 
-## The challenge:
+#### The challenge:
 
-Create a file named `looping-through-arrays.js`.
+In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/tasks/13/app.js`.
 
 In that file, define a variable named `pets` that references this array:
 
@@ -620,14 +616,11 @@ You will use a statement like this inside the for loop:
 pets[i] = pets[i] + 's';
 ```
 
-After the for loop, use `console.log()` to print the `pets` array to the terminal.
+After the for loop, use `boscode.display()` to print the `pets` array to the terminal.
 
-Check to see if your program is correct by running this command:
+Check to see if your program is correct.
 
-```bash
-javascripting verify looping-through-arrays.js
-```
-
+___
 
 ### 14 Objects
 
@@ -642,9 +635,9 @@ var foodPreferences = {
 };
 ```
 
-## The challenge:
+#### The challenge:
 
-Create a file named `objects.js`.
+In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/tasks/14/app.js`.
 
 In that file, define a variable named `pizza` like this:
 
@@ -656,14 +649,12 @@ var pizza = {
 };
 ```
 
-Use `console.log()` to print the `pizza` object to the terminal.
+Use `boscode.display()` to print the `pizza` object to the terminal.
 
-Check to see if your program is correct by running this command:
+Check to see if your program is correct.
 
-```bash
-javascripting verify objects.js
-```
 
+___
 
 ### 15 Object properties
 
@@ -676,7 +667,7 @@ var example = {
   pizza: 'yummy'
 };
 
-console.log(example['pizza']);
+boscode.display(example['pizza']);
 ```
 
 The above code will print the string `'yummy'` to the terminal.
@@ -691,9 +682,9 @@ example['pizza'];
 
 The two lines of code above will both return `yummy`.
 
-## The challenge:
+#### The challenge:
 
-Create a file named `object-properties.js`.
+In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/tasks/15/app.js`.
 
 In that file, define a variable named `food` like this:
 
@@ -703,13 +694,11 @@ var food = {
 };
 ```
 
-Use `console.log()` to print the `types` property of the `food` object to the terminal.
+Use `boscode.display()` to print the `types` property of the `food` object to the terminal.
 
-Check to see if your program is correct by running this command:
+Check to see if your program is correct.
 
-```bash
-javascripting verify object-properties.js
-```
+___
 
 
 
@@ -733,9 +722,9 @@ example(5)
 
 The above example assumes that the `example` function will take a number as an argument –– as input –– and will return that number multiplied by 2.
 
-## The challenge:
+#### The challenge:
 
-Create a file named `functions.js`.
+In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/tasks/16/app.js`.
 
 In that file, define a function named `eat` that takes an argument named `food`  
 that is expected to be a string.
@@ -746,14 +735,12 @@ Inside the function return the `food` argument like this:
 return food + ' tasted really good.';
 ```
 
-Inside of the parentheses of `console.log()`, call the `eat()` function with the string `bananas` as the argument.
+Inside of the parentheses of `boscode.display()`, call the `eat()` function with the string `bananas` as the argument.
 
-Check to see if your program is correct by running this command:
+Check to see if your program is correct.
 
-```bash
-javascripting verify functions.js
-```
 
+___
 
 ### 17 Function arguments
 
@@ -763,7 +750,7 @@ Here is an example:
 
 ```js
 function example (firstArg, secondArg) {
-  console.log(firstArg, secondArg);
+  boscode.display(firstArg, secondArg);
 }
 ```
 
@@ -775,9 +762,9 @@ example('hello', 'world');
 
 The above example will print to the terminal `hello world`.
 
-## The challenge:
+#### The challenge:
 
-Create a file named `function-arguments.js`.
+In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/tasks/17/app.js`.
 
 In that file, define a function named `math` that takes three arguments. It's important for you to understand that arguments names are only used to reference them.
 
@@ -785,14 +772,11 @@ Name each argument as you like.
 
 Within the `math` function, return the value obtained from multiplying the second and third arguments and adding that result to the first argument.
 
-After that, inside the parentheses of `console.log()`, call the `math()` function with the number `53` as first argument, the number `61` as second and the number `67` as third argument.
+After that, inside the parentheses of `boscode.display()`, call the `math()` function with the number `53` as first argument, the number `61` as second and the number `67` as third argument.
 
-Check to see if your program is correct by running this command:
+Check to see if your program is correct.
 
-```bash
-javascripting verify function-arguments.js
-```
-
+___
 
 ### 18 Scope
 
@@ -813,7 +797,7 @@ function foo() {
 	function bar(c) {
 	var b = 2;  // another `b` variable is created inside bar function scope
 				// the changes to this new `b` variable don't affect the old `b` variable
-	console.log( a, b, c );
+	boscode.display( a, b, c );
 	}
 
 	bar(b * 4);
@@ -829,9 +813,9 @@ example:
 		// can't be accessed outside
 	})(); // the function is immediately invoked
 ```
-## The challenge:
+#### The challenge:
 
-Create a file named `scope.js`.
+In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/tasks/18/app.js`.
 
 In that file, copy the following code:
 ```js
@@ -858,11 +842,9 @@ var a = 1, b = 2, c = 3;
 Use your knowledge of the variables' `scope` and place the following code inside one of the functions in `scope.js`
 so the output is `a: 1, b: 8,c: 6`
 ```js
-console.log("a: "+a+", b: "+b+", c: "+c);
+boscode.display("a: "+a+", b: "+b+", c: "+c);
 ```
 
-Check to see if your program is correct by running this command:
+Check to see if your program is correct.
 
-```bash
-javascripting verify scope.js
-```
+___
