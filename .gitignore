@@ -90,7 +90,6 @@ artifacts/
 *.tlh
 *.tmp
 *.tmp_proj
-*.log
 *.vspscc
 *.vssscc
 .builds
@@ -264,3 +263,4 @@ _Pvt_Extensions
 
 # FAKE - F# Make
 .fake/
+*.ntvs_analysis.dat
