@@ -36,14 +36,14 @@
 ## Useful bash terminal commands
 
 * `pwd`: 
-```
+```bash
 {yourname}:~/workspace (master) $ pwd
 /home/ubuntu/workspace
 ```
 print working directory
 
 * `ll`:
-```
+```bash
 {yourname}:~/workspace (master) $ ll
 total 64
 drwxr-xr-x  7 ubuntu ubuntu 4096 Jan 21 01:57 ./
@@ -65,10 +65,11 @@ drwxr-xr-x  3 ubuntu ubuntu 4096 Jan 21 01:57 node_modules/
 list files
 
 * `cd`:
-```
+```bash
 {yourname}:~/workspace (master) $ cd code
 {yourname}:~/workspace/code (master) $ 
 ```
+change directory
 
 ## Example code
 
@@ -76,7 +77,7 @@ list files
 1. Open your cloud 9 workspace (see above). In the file tree open the folder: `~/workspace/code/examples/01`
 2. Double click the file `app.js` inside this folder. Observe the code:
 
-```    
+```js    
 var boscode = require('boscode');
 
 boscode.display('Hello world');
@@ -85,7 +86,7 @@ boscode.display('The answer is ', 4, 'km');
 ```
 3. Double click the file `app.js` and choose `Open Terminal Here`.
 4. Type `ll` to see the content of the current directory:
-```
+```js
 {yourname}:~/workspace/code/examples/01 (master) $ ll
 total 12
 drwxr-xr-x  2 ubuntu ubuntu 4096 Jan 21 01:56 ./
@@ -93,7 +94,7 @@ drwxr-xr-x 11 ubuntu ubuntu 4096 Jan 21 01:56 ../
 -rw-r--r--  1 ubuntu ubuntu  115 Jan 21 01:56 app.js
 ```
 5. Type `node app.js` to run this code:
-```
+```bash
 {yourname}:~/workspace/code/examples/01 (master) $ node app.js 
 Hello world
 The answer is 4km
