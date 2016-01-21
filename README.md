@@ -177,11 +177,11 @@ Here's an example of defining a variable, making it reference a specific value:
 var example = 'some string';
 ```
 
-# NOTE 
+#### NOTE 
 
 A variable is **declared** using `var` and uses the equals sign to **define** the value that it references. This is colloquially known as "Making a variable equal a value".
 
-## The challenge:
+#### The challenge:
 
 Create a file named `variables.js`.
 
@@ -194,6 +194,9 @@ In that file declare a variable named `example`.
 Then use `boscode.display()` to print the `example` variable to the console.
 
 Check to see if your program is correct.
+
+In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/tasks/01/pseudocode.txt`. Convert your javascript file `app.js` into the [bos pseudocode](https://github.com/Quobject/boscode/blob/master/docs/pseudocode.md) equivalent.
+
 
 ### 02 Strings
 ### 03 String length
