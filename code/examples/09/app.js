@@ -1,4 +1,4 @@
-﻿var boscode = require('boscode');
+var boscode = require('boscode');
 
 var updateRecordsInARelativeFile = function () {
     var productData = boscode.open('productData.txt', 'relative_access');

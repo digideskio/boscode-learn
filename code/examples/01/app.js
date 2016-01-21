@@ -1,4 +1,4 @@
-﻿var boscode = require('boscode');
+var boscode = require('boscode');
 
 boscode.display('Hello world');
 

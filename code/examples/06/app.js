@@ -1,4 +1,4 @@
-﻿var boscode = require('boscode');
+var boscode = require('boscode');
 
 var appendNewRows = function () {
     var friendsData = boscode.open('friendsData.txt', 'append');

@@ -107,55 +107,55 @@ See also: https://github.com/Quobject/boscode#display
 
 
 ### 02 Console input: Get
-In you cloud 9 workspace run the file 
+In your cloud 9 workspace run the file 
 [app.js](https://github.com/Quobject/boscode-learn/blob/master/code/examples/02/app.js) `code/examples/02/app.js`. 
 
 See also: https://github.com/Quobject/boscode#get
 
 ### 03 Creating a sequential file
-In you cloud 9 workspace run the file  
+In your cloud 9 workspace run the file  
 [app.js](https://github.com/Quobject/boscode-learn/blob/master/code/examples/03/app.js) `code/examples/03/app.js`.
 
 See also: https://github.com/Quobject/boscode#creating-a-sequential-file
 
 
 ### 04 Printing the contents of a file using sentinel value
-In you cloud 9 workspace run the file  
+In your cloud 9 workspace run the file  
 [app.js](https://github.com/Quobject/boscode-learn/blob/master/code/examples/04/app.js) `code/examples/04/app.js`.
 
 See also: https://github.com/Quobject/boscode#printing-the-contents-of-a-file-using-sentinel-value
 
 
 ### 05 Printing the contents of a file using EOF (end of file)
-In you cloud 9 workspace run the file  
+In your cloud 9 workspace run the file  
 [app.js](https://github.com/Quobject/boscode-learn/blob/master/code/examples/05/app.js) `code/examples/05/app.js`.
 
 See also: https://github.com/Quobject/boscode#printing-the-contents-of-a-file-using-eof-end-of-file
 
 
 ### 06 Appending rows to an existing sequential file
-In you cloud 9 workspace run the file  
+In your cloud 9 workspace run the file  
 [app.js](https://github.com/Quobject/boscode-learn/blob/master/code/examples/06/app.js) `code/examples/06/app.js`.
 
 See also: https://github.com/Quobject/boscode#appending-rows-to-an-existing-sequential-file
 
 
 ### 07 Creating a relative file
-In you cloud 9 workspace run the file  
+In your cloud 9 workspace run the file  
 [app.js](https://github.com/Quobject/boscode-learn/blob/master/code/examples/07/app.js) `code/examples/07/app.js`.
 
 See also: https://github.com/Quobject/boscode#creating-a-relative-file
 
 
 ### 08 Reading from a relative file
-In you cloud 9 workspace run the file  
+In your cloud 9 workspace run the file  
 [app.js](https://github.com/Quobject/boscode-learn/blob/master/code/examples/08/app.js) `code/examples/08/app.js`.
 
 See also: https://github.com/Quobject/boscode#reading-from-a-relative-file
 
 
 ### 09 Updating records in a relative file
-In you cloud 9 workspace run the file  
+In your cloud 9 workspace run the file  
 [app.js](https://github.com/Quobject/boscode-learn/blob/master/code/examples/09/app.js) `code/examples/09/app.js`.
 
 See also: https://github.com/Quobject/boscode#updating-records-in-a-relative-file

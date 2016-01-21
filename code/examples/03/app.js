@@ -1,4 +1,4 @@
-﻿var boscode = require('boscode');
+var boscode = require('boscode');
 
 var createASequentialFile = function () {
     var friendsData = boscode.open('friendsData.txt', 'output');

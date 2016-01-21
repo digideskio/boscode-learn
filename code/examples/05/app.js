@@ -1,4 +1,4 @@
-﻿var boscode = require('boscode');
+var boscode = require('boscode');
 
 var displayFileContents = function () {
     var friendsData = boscode.open('friendsData.txt', 'input');
