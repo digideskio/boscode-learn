@@ -39,7 +39,6 @@
     <Compile Include="code\examples\03\app.js" />
     <Compile Include="code\examples\02\app.js" />
     <Compile Include="code\examples\01\app.js" />
-    <Compile Include="code\tasks\01\pseudocode.txt" />
     <Compile Include="code\tasks\01\app.js" />
     <Compile Include="code\tasks\02\app.js" />
     <Compile Include="code\tasks\03\app.js" />
@@ -54,7 +53,9 @@
     <Compile Include="code\tasks\12\app.js" />
     <Compile Include="code\tasks\13\app.js" />
     <Compile Include="code\tasks\14\app.js" />
+    <Compile Include="code\tasks\17\app.js" />
     <Compile Include="code\tasks\15\app.js" />
+    <Compile Include="code\tasks\18\app.js" />
     <Compile Include="code\tasks\16\app.js" />
     <Content Include=".editorconfig" />
     <Content Include=".gitignore" />
@@ -69,20 +70,6 @@
     <Content Include="code\examples\09\productData.txt" />
     <Content Include="code\examples\08\.gitignore" />
     <Content Include="code\examples\08\productData.txt" />
-    <Content Include="code\tasks\02\pseudocode.txt" />
-    <Content Include="code\tasks\03\pseudocode.txt" />
-    <Content Include="code\tasks\04\pseudocode.txt" />
-    <Content Include="code\tasks\05\pseudocode.txt" />
-    <Content Include="code\tasks\06\pseudocode.txt" />
-    <Content Include="code\tasks\07\pseudocode.txt" />
-    <Content Include="code\tasks\08\pseudocode.txt" />
-    <Content Include="code\tasks\09\pseudocode.txt" />
-    <Content Include="code\tasks\10\pseudocode.txt" />
-    <Content Include="code\tasks\11\pseudocode.txt" />
-    <Content Include="code\tasks\12\pseudocode.txt" />
-    <Content Include="code\tasks\13\pseudocode.txt" />
-    <Content Include="code\tasks\14\pseudocode.txt" />
-    <Content Include="code\tasks\15\pseudocode.txt" />
     <Content Include="code\tasks\16\pseudocode.txt" />
     <Content Include="LICENSE" />
     <Content Include="package.json" />
@@ -114,6 +101,8 @@
     <Folder Include="code\tasks\13\" />
     <Folder Include="code\tasks\14\" />
     <Folder Include="code\tasks\15\" />
+    <Folder Include="code\tasks\17\" />
+    <Folder Include="code\tasks\18\" />
     <Folder Include="code\tasks\16\" />
     <Folder Include="code\tasks\02\" />
     <Folder Include="code\tasks\01\" />
