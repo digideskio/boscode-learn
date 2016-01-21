@@ -5,13 +5,10 @@
 [![NPM](https://nodei.co/npm-dl/boscode-learn.png?months=6&height=3)](https://nodei.co/npm/boscode-learn/)
 
 ## Table of Content
-[Installation](#installation)
-
+[Installation](#installation)  
 [Useful bash terminal commands]  
-(#useful-bash-terminal-commands)
-
-#### Example code
-
+(#useful-bash-terminal-commands)  
+*Example code*  
 [01 Console output: Display](#01-console-output-display)  
 [02 Console input: Get](02-console-input-get)  
 [03 Creating a sequential file](03-creating-a-sequential-file)  
@@ -29,7 +26,7 @@
 3. In c9.io: Create a new workspace: 
   * Workspace name: boscode-learn
   * Description: Learning javascript
-  * Hosted workspace: Pubic
+  * Hosted workspace: Public
   * Clone from Git or Mercurial URL: `https://github.com/Quobject/boscode-learn.git`
   * Choose a template: `Custom`
   * Hit 'Create workspace' button
@@ -160,3 +157,58 @@ In your cloud 9 workspace run the file
 
 See also: https://github.com/Quobject/boscode#updating-records-in-a-relative-file
 
+## Tasks
+
+### 01 Variables
+
+A variable is a name that can reference a specific value. Variables are declared using `var` followed by the variable's name.
+
+Here's an example:
+
+```js
+var example;
+```
+
+The above variable is **declared**, but it isn't defined (it does not yet reference a specific value).
+
+Here's an example of defining a variable, making it reference a specific value:
+
+```js
+var example = 'some string';
+```
+
+# NOTE 
+
+A variable is **declared** using `var` and uses the equals sign to **define** the value that it references. This is colloquially known as "Making a variable equal a value".
+
+## The challenge:
+
+Create a file named `variables.js`.
+
+In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/tasks/01/app.js`.
+
+In that file declare a variable named `example`.
+
+**Make the variable `example` equal to the value `'some string'`.**
+
+Then use `boscode.display()` to print the `example` variable to the console.
+
+Check to see if your program is correct.
+
+### 02 Strings
+### 03 String length
+### 04 Revising strings
+### 05 Numbers
+### 06 Rounding numbers
+### 07 Number to string
+### 08 If statement
+### 09 For loop
+### 10 Arrays
+### 11 Array filtering
+### 12 Accessing array values
+### 13 Looping through arrays
+### 14 Objects
+### 15 Object properties
+### 16 Functions
+### 17 Function arguments
+### 18 Scope
