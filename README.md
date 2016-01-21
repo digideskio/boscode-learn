@@ -8,6 +8,7 @@
 [Installation](#installation)  
 [Useful bash terminal commands]  
 (#useful-bash-terminal-commands)  
+
 *Example code*  
 [01 Console output: Display](#01-console-output-display)  
 [02 Console input: Get](02-console-input-get)  
@@ -18,6 +19,27 @@
 [07 Creating a relative file](#07-creating-a-relative-file)  
 [08 Reading from a relative file](#08-reading-from-a-relative-file)  
 [09 Updating records in a relative file](#09-updating-records-in-a-relative-file)  
+
+*Tasks*  
+[01 Variables](#01-variables)  
+[02 Strings](#02-strings)  
+[03 String length](#03-string-length)  
+[04 Revising strings](#04-revising-strings)  
+[05 Numbers](#05-numbers)  
+[06 Rounding numbers](#06-rounding-numbers)  
+[07 Number to string](#07-number-to-string)  
+[08 If statement](#08-if-statement)  
+[09 For loop](#09-for-loop)  
+[10 Arrays](#10-arrays)  
+[11 Array filtering](#11-array-filtering)  
+[12 Accessing array values](#12-accessing-array-values)  
+[13 Looping through arrays](#13-looping-through-arrays)  
+[14 Objects](#14-objects)  
+[15 Object properties](#15-object-properties)  
+[16 Functions](#16-functions)  
+[17 Function arguments](#17-function-arguments)  
+[18 Scope](#18-scope)  
+
 
 ## Installation
 
