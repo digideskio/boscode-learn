@@ -183,13 +183,12 @@ A variable is **declared** using `var` and uses the equals sign to **define** th
 
 #### The challenge:
 
-Create a file named `variables.js`.
 
 In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/tasks/01/app.js`.
 
 In that file declare a variable named `example`.
 
-**Make the variable `example` equal to the value `'some string'`.**
+Make the variable `example` equal to the value `'some string'`.
 
 Then use `boscode.display()` to print the `example` variable to the console.
 
@@ -199,6 +198,9 @@ In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/tasks/01/p
 
 
 ### 02 Strings
+
+
+
 ### 03 String length
 ### 04 Revising strings
 ### 05 Numbers
