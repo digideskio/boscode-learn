@@ -7,6 +7,19 @@
 ## Content
 [Installation](#installation)
 
+[Useful bash terminal commands](#useful-bash-terminal-commands)
+
+#### Example code
+
+[01 Console output: Display](#01-console-output-display)
+[02 Console input: Get](02-console-input-get)
+[03 Creating a sequential file](03-creating-a-sequential-file)
+[04 Printing the contents of a file using sentinel value](#04-printing-the-contents-of-a-file-using-sentinel-value)
+[05 Printing the contents of a file using EOF (end of file)](#05-printing-the-contents-of-a-file-using-eof-end-of-file)
+[06 Appending rows to an existing sequential file](#06-appending-rows-to-an-existing-sequential-file)
+[07 Creating a relative file](#07-creating-a-relative-file)
+[08 Reading from a relative file](#08-reading-from-a-relative-file)
+[09 Updating records in a relative file](#09-updating-records-in-a-relative-file)
 
 ## Installation
 
