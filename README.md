@@ -470,7 +470,7 @@ The final part, `i++`, is executed at the end of every loop. This increases the 
 
 The above javascript code in pseudocode (see [also](https://github.com/Quobject/boscode/blob/master/docs/pseudocode.md#fornext-or-counted-loop)):
 ```
-FOR i = 1 to 9 STEP 1
+FOR i = 1 TO 9 STEP 1
   Display i 
 NEXT i
 ```
@@ -507,6 +507,15 @@ An array is a list of values. Here's an example:
 
 ```js
 var pets = ['cat', 'dog', 'rat'];
+
+//or
+
+var pets = [];
+
+pets[0] = 'cat';
+pets[1] = 'dog';
+pets[2] = 'rat';
+
 ```
 
 The above javascript code in pseudocode (see [also](https://github.com/Quobject/boscode/blob/master/docs/pseudocode.md#print-array-contents)):
