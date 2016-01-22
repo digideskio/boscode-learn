@@ -485,7 +485,7 @@ Define a second variable named `limit` and make it equal the number `10`.
 
 Create a for loop with a variable `i` starting at 0 and increasing by 1 each time through the loop. The loop should run as long as `i` is less than `limit`.
 
-On each iteration of the loop, add the number `i` to the `total` variable. To do this, you can use this statement:
+On each iteration of the loop, add the number `i` to the `total` variable. To do this, you can use this statement (equivalent to total = total + i):
 
 ```js
 total += i;
@@ -509,17 +509,28 @@ An array is a list of values. Here's an example:
 var pets = ['cat', 'dog', 'rat'];
 ```
 
+The above javascript code in pseudocode (see [also](https://github.com/Quobject/boscode/blob/master/docs/pseudocode.md#print-array-contents)):
+```
+pets(0) = "cat"
+pets(1) = "dog"
+pets(2) = "rat"
+
+```
+
 ##### The challenge:
 
-In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/tasks/10/app.js`.
+1) In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/tasks/10/app.js`.
 
 
 In that file define a variable named `pizzaToppings` that references an array that contains three strings in this order: `tomato sauce, cheese, pepperoni`.
 
-Use `boscode.display()` to print the `pizzaToppings` array to the terminal.
+Use a for loop and `boscode.display()` to print the `pizzaToppings` array to the terminal.
 
 Check to see if your program is correct.
 
+2) In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/tasks/10/pseudocode.txt`.
+
+In this file write your javascript solution as pseudocode. 
 
 ___
 
