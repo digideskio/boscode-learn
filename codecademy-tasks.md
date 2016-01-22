@@ -209,7 +209,7 @@ Write a function called circleArea that returns the area of a circle.
 
 It should have one parameter: radius
 
-One formula for area is Math.PI*radius*radius
+One formula for area is Math.PI * radius * radius
 
 Call the function and pass in any value for radius.
 
