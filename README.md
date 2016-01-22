@@ -422,7 +422,7 @@ Inside parentheses you must enter a logic statement, meaning that the result of 
 
 The else block is optional and contains the code that will be executed if the statement is false.
 
-The above javascript code in pseudocode (see [also](https://github.com/Quobject/boscode/blob/master/docs/pseudocode.md#binary-selection):
+The above javascript code in pseudocode (see [also](https://github.com/Quobject/boscode/blob/master/docs/pseudocode.md#binary-selection)):
 ```
 IF n > 1 THEN
   Display "the variable n is greater than 1."
