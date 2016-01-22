@@ -45,8 +45,8 @@
 
 ## Installation
 
-1. Create a github account: https://github.com/
-2. In google chrome open cloud 9 https://c9.io/ and sign in with your github account.
+1. Create a github account: https://github.com/. Use your school email address and set username to stlukes-{first part of school email}. Sign into github.
+2. In google chrome open cloud 9 https://c9.io/ and choose sign in with your github account.
 3. In c9.io: Create a new workspace: 
   * Workspace name: boscode-learn
   * Description: Learning javascript

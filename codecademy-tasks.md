@@ -101,11 +101,13 @@ Otherwise (else) when it is false, use boscode.display to print "The numbers are
 
 Make sure your condition evaluates to false, so that your program prints out "The numbers are not equal".
 
+Check to see if your program is correct.
+
 2) In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/codecademy-tasks/04/pseudocode.txt`.
 
 In this file write your javascript solution as pseudocode. 
 
-Check to see if your program is correct.
+
 ___
 
 ### 05 Substring 1
@@ -129,7 +131,7 @@ ___
 
 #### The challenge:
 
-1) In your cloud 9 workspace edit the file `/home/ubuntu/workspace/code/codecademy-tasks/06/app.js`.
+In your cloud 9 workspace edit the file `/home/ubuntu/workspace/code/codecademy-tasks/06/app.js`.
 
 In that file using boscode.display, on three separate lines, print out the substrings for the following strings.
 
@@ -146,7 +148,7 @@ ___
 
 #### The challenge:
 
-1) In your cloud 9 workspace edit the file `/home/ubuntu/workspace/code/codecademy-tasks/07/app.js`.
+In your cloud 9 workspace edit the file `/home/ubuntu/workspace/code/codecademy-tasks/07/app.js`.
 
 In that file:
 
@@ -163,7 +165,7 @@ ___
 
 #### The challenge:
 
-1) In your cloud 9 workspace edit the file `/home/ubuntu/workspace/code/codecademy-tasks/08/app.js`.
+In your cloud 9 workspace edit the file `/home/ubuntu/workspace/code/codecademy-tasks/08/app.js`.
 
 In that file:
 Declare a variable called myNumber and give it an integer value of 25.
@@ -201,4 +203,125 @@ Call the function and pass in any value for radius.
 Use boscode.display to print out the result.
 
 Check to see if your program is correct.
+___
+
+
+### 10 Introduction to For Loops in JS
+
+Go to [Codecademy](http://www.codecademy.com/) and sign in.
+
+Got to Go to INTRODUCTION TO JAVASCRIPT [Introduction to For Loops in JS](http://www.codecademy.com/courses/javascript-beginner-en-NhsaT/0/1?curriculum_id=506324b3a7dffd00020bf661) and complete tutorials 1- 13.
+
+#### The challenge:
+
+1) In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/codecademy-tasks/10/app.js`.
+
+In that file:
+
+Write a for loop to print the numbers 20 to 30 to the console.
+
+Check to see if your program is correct.
+
+2) Review the pseudocode example [FOR/NEXT or counted loop](https://github.com/Quobject/boscode/blob/master/docs/pseudocode.md#fornext-or-counted-loop);
+
+In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/codecademy-tasks/10/pseudocode.txt`.
+
+In this file write your javascript solution as pseudocode. 
+
+___
+
+
+### 11 Introduction to While Loops in JS
+
+Go to [Codecademy](http://www.codecademy.com/) and sign in.
+
+Got to Go to INTRODUCTION TO JAVASCRIPT [Introduction to 'While' Loops in JS](https://www.codecademy.com/courses/javascript-beginner-en-ASGIv/0/1?curriculum_id=506324b3a7dffd00020bf661) and complete tutorials 1- 11.
+
+#### The challenge:
+
+1) In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/codecademy-tasks/11/app.js`.
+
+In that file: Write three loops: one while, one for and one do while. No restrictions on this one; just make sure your loops are syntactically correct, and be careful to avoid infinite loops!
+
+Check to see if your program is correct.
+
+2) Review the pseudocode example [Pre-test repetition: while](https://github.com/Quobject/boscode/blob/master/docs/pseudocode.md#pre-test-repetition-while);
+
+In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/codecademy-tasks/11/pseudocode.txt`.
+
+In this file write your javascript solution as pseudocode. 
+
+___
+
+
+### 12 More on Control Flow in JS
+
+Go to [Codecademy](http://www.codecademy.com/) and sign in.
+
+Got to Go to INTRODUCTION TO JAVASCRIPT [More on Control Flow in JS](https://www.codecademy.com/courses/javascript-beginner-en-qDwp0/0/1?curriculum_id=506324b3a7dffd00020bf661) and complete tutorials 1- 14.
+
+#### The challenge:
+
+1) In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/codecademy-tasks/12/app.js`.
+
+```js
+var boscode = require('boscode');
+
+var answer = boscode.get('What day of the week is it?');
+
+switch (answer) {
+  case 'Monday':
+    boscode.diplay('Monday’s child is fair of face');
+    break;
+    //add six more days here
+
+
+  default:
+    boscode.diplay('Not a day of the week');
+
+}
+```
+
+In that file: Complete the code and add six more days.
+
+Check to see if your program is correct.
+
+2) Review the pseudocode example [Casewhere](https://github.com/Quobject/boscode/blob/master/docs/pseudocode.md#casewhere);
+
+In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/codecademy-tasks/12/pseudocode.txt`.
+
+In this file write your javascript solution as pseudocode. 
+
+___
+
+
+### 13 Arrays and Objects in JS
+
+Go to [Codecademy](http://www.codecademy.com/) and sign in.
+
+Got to Go to INTRODUCTION TO JAVASCRIPT [More on Control Flow in JS](https://www.codecademy.com/courses/javascript-beginner-en-9Sgpi/0/1?curriculum_id=506324b3a7dffd00020bf661) and complete tutorials 1- 17.
+
+#### The challenge:
+
+In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/codecademy-tasks/13/app.js`.
+
+```js
+var boscode = require('boscode');
+
+var monday = {
+  period1: 'Maths'
+  //Add 5 more keys and values (period2-period6)
+
+}
+
+boscode.display(monday);
+
+
+}
+```
+
+In that file: Complete the code and add 5 more keys and values (period2-period6)
+
+Check to see if your program is correct.
+
 ___
