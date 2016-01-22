@@ -6,8 +6,7 @@
 
 ## Table of Content
 [Installation](#installation)  
-[Useful bash terminal commands]  
-(#useful-bash-terminal-commands)  
+[Useful bash terminal commands](#useful-bash-terminal-commands)  
 
 *Example code*  
 [01 Console output: Display](#01-console-output-display)  
