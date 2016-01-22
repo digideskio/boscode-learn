@@ -39,8 +39,8 @@
 [16 Functions](#16-functions)  
 [17 Function arguments](#17-function-arguments)  
 
-*Codecademy Tasks*
-[codecadme task](codecadme-task.md)
+*Codecademy Tasks*  
+[codecademy tasks](codecademy-tasks.md)
 
 
 ## Installation
