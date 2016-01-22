@@ -2,7 +2,20 @@
 
 ## Table of Content
 
-[01 Comparison 1]()  
+[01 Comparison 1]( #01-comparison-1 )   
+[02 Comparison 2]( #02-comparison-2 )   
+[03 Decisions 1]( #03-decisions-1 )   
+[04 Decisions 2]( #04-decisions-2 )   
+[05 Substring 1]( #05-substring-1 )   
+[06 Substring 2]( #06-substring-2 )   
+[07 Variable 1]( #07-variable-1 )   
+[08 Variable 2]( #08-variable-2 )   
+[09 Introduction to Functions in JS]( #09-introduction-to-functions-in-js )   
+[10 Introduction to For Loops in JS]( #10-introduction-to-for-loops-in-js )   
+[11 Introduction to While Loops in JS]( 11-introduction-to-while-loops-in-js )   
+[12 More on Control Flow in JS]( #12-more-on-control-flow-in-js )   
+[13 Arrays and Objects in JS]( #13-arrays-and-objects-in-js )   
+
 
 
 ### 01 Comparison 1
