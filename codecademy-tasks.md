@@ -312,7 +312,7 @@ ___
 
 Go to [Codecademy](http://www.codecademy.com/) and sign in.
 
-Got to Go to INTRODUCTION TO JAVASCRIPT [More on Control Flow in JS](https://www.codecademy.com/courses/javascript-beginner-en-9Sgpi/0/1?curriculum_id=506324b3a7dffd00020bf661) and complete tutorials 1- 17.
+Got to Go to INTRODUCTION TO JAVASCRIPT [Arrays and Objects in JS](https://www.codecademy.com/courses/javascript-beginner-en-9Sgpi/0/1?curriculum_id=506324b3a7dffd00020bf661) and complete tutorials 1- 17.
 
 *The challenge:*
 
