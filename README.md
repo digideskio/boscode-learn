@@ -468,10 +468,16 @@ The second part, `i < 10`, is checked at the beginning of every loop iteration b
 
 The final part, `i++`, is executed at the end of every loop. This increases the variable `i` by 1 after each loop. Once `i` reaches `10`, the loop will exit.
 
+The above javascript code in pseudocode (see [also](https://github.com/Quobject/boscode/blob/master/docs/pseudocode.md#fornext-or-counted-loop)):
+```
+FOR i = 1 to 9 STEP 1
+  Display i 
+NEXT i
+```
+
 #### The challenge:
 
-In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/tasks/09/app.js`.
-
+1) In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/tasks/09/app.js`.
 
 In that file define a variable named `total` and make it equal the number `0`.
 
@@ -489,6 +495,9 @@ After the for loop, use `boscode.display()` to print the `total` variable to the
 
 Check to see if your program is correct.
 
+2) In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/tasks/09/pseudocode.txt`.
+
+In this file write your javascript solution as pseudocode. 
 
 ___
 
