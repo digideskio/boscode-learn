@@ -433,7 +433,7 @@ ENDIF
 
 #### The challenge:
 
-1. In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/tasks/08/app.js`.
+1) In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/tasks/08/app.js`.
 
 
 In that file, declare a variable named `fruit`.
@@ -445,7 +445,7 @@ Otherwise, print "**The fruit name has five characters or less.**"
 
 Check to see if your program is correct.
 
-2. In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/tasks/08/pseudocode.txt`.
+2) In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/tasks/08/pseudocode.txt`.
 
 In this file write your javascript solution as pseudocode.
 ___
