@@ -447,7 +447,8 @@ Check to see if your program is correct.
 
 2) In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/tasks/08/pseudocode.txt`.
 
-In this file write your javascript solution as pseudocode.
+In this file write your javascript solution as pseudocode. 
+Note: Assume LENGTH( varName ) exists the returns the number of characters of a string variable.
 ___
 
 ### 09 For loop
