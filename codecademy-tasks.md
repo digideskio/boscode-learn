@@ -22,7 +22,7 @@
 
 Go to [Codecademy](http://www.codecademy.com/) and sign up.
 
-Got to Go to INTRODUCTION TO JAVASCRIPT [Getting Started with Programming](http://www.codecademy.com/courses/getting-started-v2/0/1) and complete tutorials 1- 28.
+Go to INTRODUCTION TO JAVASCRIPT [Getting Started with Programming](http://www.codecademy.com/courses/getting-started-v2/0/1) and complete tutorials 1- 28.
 
 *The challenge:*
 
@@ -206,7 +206,7 @@ ___
 
 Go to [Codecademy](http://www.codecademy.com/) and sign in.
 
-Got to Go to INTRODUCTION TO JAVASCRIPT [Introduction to Functions in JS](https://www.codecademy.com/courses/javascript-beginner-en-6LzGd/0/1) and complete tutorials 1- 13.
+Go to INTRODUCTION TO JAVASCRIPT [Introduction to Functions in JS](https://www.codecademy.com/courses/javascript-beginner-en-6LzGd/0/1) and complete tutorials 1- 13.
 
 *The challenge:*
 
@@ -232,7 +232,7 @@ ___
 
 Go to [Codecademy](http://www.codecademy.com/) and sign in.
 
-Got to Go to INTRODUCTION TO JAVASCRIPT [Introduction to For Loops in JS](http://www.codecademy.com/courses/javascript-beginner-en-NhsaT/0/1?curriculum_id=506324b3a7dffd00020bf661) and complete tutorials 1- 13.
+Go to INTRODUCTION TO JAVASCRIPT [Introduction to For Loops in JS](http://www.codecademy.com/courses/javascript-beginner-en-NhsaT/0/1?curriculum_id=506324b3a7dffd00020bf661) and complete tutorials 1- 13.
 
 *The challenge:*
 
@@ -257,7 +257,7 @@ ___
 
 Go to [Codecademy](http://www.codecademy.com/) and sign in.
 
-Got to Go to INTRODUCTION TO JAVASCRIPT [Introduction to 'While' Loops in JS](https://www.codecademy.com/courses/javascript-beginner-en-ASGIv/0/1?curriculum_id=506324b3a7dffd00020bf661) and complete tutorials 1- 11.
+Go to INTRODUCTION TO JAVASCRIPT [Introduction to 'While' Loops in JS](https://www.codecademy.com/courses/javascript-beginner-en-ASGIv/0/1?curriculum_id=506324b3a7dffd00020bf661) and complete tutorials 1- 11.
 
 *The challenge:*
 
@@ -280,7 +280,7 @@ ___
 
 Go to [Codecademy](http://www.codecademy.com/) and sign in.
 
-Got to Go to INTRODUCTION TO JAVASCRIPT [More on Control Flow in JS](https://www.codecademy.com/courses/javascript-beginner-en-qDwp0/0/1?curriculum_id=506324b3a7dffd00020bf661) and complete tutorials 1- 14.
+Go to INTRODUCTION TO JAVASCRIPT [More on Control Flow in JS](https://www.codecademy.com/courses/javascript-beginner-en-qDwp0/0/1?curriculum_id=506324b3a7dffd00020bf661) and complete tutorials 1- 14.
 
 Monday's child is fair of face,  
 Tuesday's child is full of grace;  
@@ -330,7 +330,7 @@ ___
 
 Go to [Codecademy](http://www.codecademy.com/) and sign in.
 
-Got to Go to INTRODUCTION TO JAVASCRIPT [Arrays and Objects in JS](https://www.codecademy.com/courses/javascript-beginner-en-9Sgpi/0/1?curriculum_id=506324b3a7dffd00020bf661) and complete tutorials 1- 17.
+Go to INTRODUCTION TO JAVASCRIPT [Arrays and Objects in JS](https://www.codecademy.com/courses/javascript-beginner-en-9Sgpi/0/1?curriculum_id=506324b3a7dffd00020bf661) and complete tutorials 1- 17.
 
 *The challenge:*
 
