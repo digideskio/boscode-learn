@@ -21,6 +21,6 @@
   "devDependencies": {
   },
   "dependencies": {
-    "boscode": "~0.0.5"
+    "boscode": "~0.0.6"
   }
 }

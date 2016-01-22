@@ -535,7 +535,7 @@ pets(2) = "rat"
 
 In that file define a variable named `pizzaToppings` that references an array that contains three strings in this order: `tomato sauce, cheese, pepperoni`.
 
-Use a for loop and `boscode.display()` to print the `pizzaToppings` array to the terminal.
+Use `boscode.display()` to print the `pizzaToppings` array to the terminal.
 
 Check to see if your program is correct.
 
@@ -701,7 +701,7 @@ var pizza = {
 };
 ```
 
-Use `consosle.log(pizza)` to print the `pizza` object to the terminal.
+Use `boscode.display(pizza)` to print the `pizza` object to the terminal.
 
 Check to see if your program is correct.
 
