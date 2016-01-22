@@ -182,7 +182,7 @@ ___
 
 *The challenge:*
 
-In your cloud 9 workspace edit the file `/home/ubuntu/workspace/code/codecademy-tasks/08/app.js`.
+1) In your cloud 9 workspace edit the file `/home/ubuntu/workspace/code/codecademy-tasks/08/app.js`.
 
 In that file:
 Declare a variable called myNumber and give it an integer value of 25.
@@ -194,6 +194,11 @@ Add 5 to the variable myNumber.
 Use boscode.display to print out the new value of the variable myNumber.
 
 Check to see if your program is correct.
+
+2) In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/codecademy-tasks/08/pseudocode.txt`.
+
+In this file write your javascript solution as pseudocode. 
+
 ___
 
 
@@ -276,6 +281,15 @@ ___
 Go to [Codecademy](http://www.codecademy.com/) and sign in.
 
 Got to Go to INTRODUCTION TO JAVASCRIPT [More on Control Flow in JS](https://www.codecademy.com/courses/javascript-beginner-en-qDwp0/0/1?curriculum_id=506324b3a7dffd00020bf661) and complete tutorials 1- 14.
+
+Monday's child is fair of face,  
+Tuesday's child is full of grace;  
+Wednesday's child is full of woe,  
+Thursday's child has far to go;  
+Friday's child is loving and giving,  
+Saturday's child works hard for its living;  
+But the child that is born on the Sabbath day  
+Is bonny and blithe, and good and gay.
 
 *The challenge:*
 
