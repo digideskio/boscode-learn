@@ -563,6 +563,8 @@ var filtered = pets.filter(function (pet) {
 
 The `filtered` variable will now only contain `cat` and `dog`.
 
+!== is a comparison operator (see [w3schools](http://www.w3schools.com/js/js_comparisons.asp)).
+
 #### The challenge:
 
 In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/tasks/11/app.js`.
@@ -587,8 +589,6 @@ function evenNumbers (number) {
 Use `boscode.display()` to print the `filtered` array to the terminal.
 
 Check to see if your program is correct.
-
-
 ___
 
 ### 12 Accessing array values
@@ -607,21 +607,6 @@ boscode.display(pets[0]);
 ```
 
 The above code will print the first element of `pets` array - string `cat`.
-
-Array elements must be accessed through only using bracket notation.
-
-Dot notation is invalid.
-
-Valid notation:
-
-```js
-boscode.display(pets[0]);
-```
-
-Invalid notation:
-```
-boscode.display(pets.1);
-```
 
 #### The challenge:
 
