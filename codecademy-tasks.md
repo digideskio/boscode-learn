@@ -2,32 +2,16 @@
 
 ## Table of Content
 
-[01 Variables](#01-variables)  
+[01 Comparison 1](#01-variables)  
 
 
-### 01 Variables
+### 01 Comparison 1
 
-A variable is a name that can reference a specific value. Variables are declared using `var` followed by the variable's name.
+Go to [Codecademy](http://www.codecademy.com/) and sign up.
 
-Here's an example:
+Got to Go to INTRODUCTION TO JAVASCRIPT [Getting Started with Programming](http://www.codecademy.com/courses/getting-started-v2/0/1) and complete tutorials 1- 28.
 
-```js
-var example;
-```
-
-The above variable is **declared**, but it isn't defined (it does not yet reference a specific value).
-
-Here's an example of defining a variable, making it reference a specific value:
-
-```js
-var example = 'some string';
-```
-
-###### NOTE 
-
-A variable is **declared** using `var` and uses the equals sign to **define** the value that it references. This is colloquially known as "Making a variable equal a value".
-
-###### The challenge:
+#### The challenge:
 
 
 In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/tasks/01/app.js`.
