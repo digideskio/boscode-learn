@@ -82,7 +82,9 @@ Otherwise (else) when it is false, use boscode.display() to print "The condition
 
 Make sure your condition evaluates to true, so that your program prints out "The condition ist true.".
 
-2) In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/codecademy-tasks/03/pseudocode.txt`.
+2) Review the pseudocode example [Binary selection](https://github.com/Quobject/boscode/blob/master/docs/pseudocode.md#binary-selection)
+
+In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/codecademy-tasks/03/pseudocode.txt`.
 
 In this file write your javascript solution as pseudocode. 
 
@@ -116,7 +118,9 @@ Make sure your condition evaluates to false, so that your program prints out "Th
 
 Check to see if your program is correct.
 
-2) In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/codecademy-tasks/04/pseudocode.txt`.
+2) Review the pseudocode example [Binary selection](https://github.com/Quobject/boscode/blob/master/docs/pseudocode.md#binary-selection)
+
+In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/codecademy-tasks/04/pseudocode.txt`.
 
 In this file write your javascript solution as pseudocode. 
 
@@ -127,7 +131,7 @@ ___
 
 *The challenge:*
 
-1) In your cloud 9 workspace edit the file `/home/ubuntu/workspace/code/codecademy-tasks/05/app.js`.
+In your cloud 9 workspace edit the file `/home/ubuntu/workspace/code/codecademy-tasks/05/app.js`.
 
 In that file using boscode.display, on three separate lines, print out the substrings for the following strings.
 
