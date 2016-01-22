@@ -422,9 +422,18 @@ Inside parentheses you must enter a logic statement, meaning that the result of 
 
 The else block is optional and contains the code that will be executed if the statement is false.
 
+The above javascript code in pseudocode (see [also](https://github.com/Quobject/boscode/blob/master/docs/pseudocode.md#binary-selection):
+```
+IF n > 1 THEN
+  Display "the variable n is greater than 1."
+ELSE
+  Display "the variable n is less than or equal to 1."
+ENDIF
+```
+
 #### The challenge:
 
-In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/tasks/08/app.js`.
+1. In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/tasks/08/app.js`.
 
 
 In that file, declare a variable named `fruit`.
@@ -436,6 +445,9 @@ Otherwise, print "**The fruit name has five characters or less.**"
 
 Check to see if your program is correct.
 
+2. In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/tasks/08/pseudocode.txt`.
+
+In this file write your javascript solution as pseudocode.
 ___
 
 ### 09 For loop
