@@ -1257,7 +1257,6 @@ Example:
 	<th>Input</th>
 	<th>Output</th>
 	</tr>
-
 <tr><td><pre>Time<br>
 flies<br>
 like<br>
