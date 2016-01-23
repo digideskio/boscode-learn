@@ -1639,7 +1639,7 @@ Examples:
     <td>2 words, 10 characters</td>
   </tr>
   <tr>
-    <tdLorem ipsum dolor sit amet</td>
+    <td>Lorem ipsum dolor sit amet</td>
     <td>5 words, 22 characters</td>
   </tr>
 </table>
