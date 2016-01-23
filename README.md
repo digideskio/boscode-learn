@@ -1200,7 +1200,7 @@ ___
 
 1. Review [array sort](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort).
 
-2. Same task as task `30 Word index` i.e. write a program that generates a simple index from a list of words from a text file, one per line. The index shows each word and the position of the word in the list, counting from 1. 
+2. Same task as task 30 Word index i.e. write a program that generates a simple index from a list of words from a text file, one per line. The index shows each word and the position of the word in the list, counting from 1. 
 
 3. In your cloud 9 workspace edit the file `/home/ubuntu/workspace/code/tasks/31/app.js`. New in this task: the index should be sorted by word (case-insensitive).
  
@@ -1247,7 +1247,7 @@ ___
 
 ### 32  Formatted index
 
-1. Same task as task `31 Sorted index` i.e. write a program that generates a simple index from a list of words from a text file, one per line. The index shows each word and the position of the word in the list, counting from 1. The index should be sorted by word (case-insensitive).
+1. Same task as task 31 Sorted index i.e. write a program that generates a simple index from a list of words from a text file, one per line. The index shows each word and the position of the word in the list, counting from 1. The index should be sorted by word (case-insensitive).
 
 2. In your cloud 9 workspace edit the file `/home/ubuntu/workspace/code/tasks/31/app.js`. New in this task: It must be formatted so the word and the position are separated by dots and the last character of the position number is in a fixed column.
 
