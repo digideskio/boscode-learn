@@ -831,3 +831,486 @@ Check to see if your program is correct.
 
 ___
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### 18 Sum
+
+1. In your cloud 9 workspace edit the file `/home/ubuntu/workspace/code/tasks/18/app.js`. In that file, write a program that reads in two numbers from the console and adds them up. Print the result to the console.
+
+2) In your cloud 9 workspace edit the file `/home/ubuntu/workspace/code/tasks/18/pseudocode.txt`. In this file write your javascript solution as pseudocode. 
+___
+
+
+### 19 Highindex
+
+1. Review https://github.com/Quobject/boscode-learn#10-arrays.
+
+2. In your cloud 9 workspace edit the file `/home/ubuntu/workspace/code/tasks/19/app.js`. Create a js function that takes `highIndex` as input parameter and creates an array of integers 0 - highIndex that has every value set to its index. Call the function and display the result to the console.
+
+3. In your cloud 9 workspace edit the file `/home/ubuntu/workspace/code/tasks/19/pseudocode.txt`. In this file write your javascript solution as pseudocode. 
+
+___
+
+
+### 20 Binary sum
+
+1. Review: https://github.com/Quobject/boscode#printing-the-contents-of-a-file-using-eof-end-of-file
+
+2. In your cloud 9 workspace edit the file `/home/ubuntu/workspace/code/tasks/20/app.js`. In this file write a program that reads a text file containing strings made up of zeroes and ones and outputs to the console. The program counts the number of ones per line and outputs the input ` - ` result.
+
+Hint: You might find the JavaScript String split() Method http://www.w3schools.com/jsref/jsref_split.asp useful.
+
+Example:
+
+| Input         | Output        | 
+|---------------|---------------| 
+| 0011          | 0011 - 2      | 
+| 0101010       | 0101010 - 3   | 
+| 01            | 01 - 1        | 
+| 00000000      | 00000000 - 0  | 
+| 1111          | 1111 - 4      |
+
+ ___
+
+
+### 21 Integer addition
+
+The parseInt() function parses a string and returns an integer http://www.w3schools.com/jsref/jsref_parseint.asp.
+
+1. Review the JavaScript String split() Method http://www.w3schools.com/jsref/jsref_split.asp.
+
+2. In your cloud 9 workspace edit the file `/home/ubuntu/workspace/code/tasks/21/app.js`. Write a program that reads a text file containing lines of two numbers and a plus character in the middle. The program should add the two numbers (as integers not strings) and print the input, `=` and the result to the console.
+
+Example:
+
+| Input         | Output        | 
+|---------------|---------------| 
+| 1+1           | 1+1=2         | 
+| 99+2          | 99+2=101      | 
+| 1000+0        | 1000+0=1000   | 
+
+
+___
+
+
+### 22 Comparing strings
+
+1. JavaScript Comparison and Logical Operators: read through the information provided at http://www.w3schools.com/js/js_comparisons.asp, especially `Comparing Different Types`.
+
+
+2. In your cloud 9 workspace edit the file `/home/ubuntu/workspace/code/tasks/22/app.js`. In that file write a program that reads in two strings from the console and prints out the string that is alphabetically higher (e.g. B is higher than A)
+
+Example:
+<table>
+  <tr>
+    <th>Input</th>
+    <th>Output</th>
+  </tr>
+  <tr>
+    <td>abc</br>def</td>
+    <td>def</td>
+  </tr>
+  <tr>
+    <td>A</br>a</td>
+    <td>a</td>
+  </tr>
+  <tr>
+    <td>node</br>javascript</td>
+    <td>node</td>
+  </tr>
+</table>
+
+3. In your cloud 9 workspace edit the file `/home/ubuntu/workspace/code/tasks/22/pseudocode.txt`. In this file write your javascript solution as pseudocode. 
+
+___
+
+
+### 23 Digit sum
+
+1. Review the JavaScript String split() Method http://www.w3schools.com/jsref/jsref_split.asp and also `parseInt` http://www.w3schools.com/jsref/jsref_parseint.asp
+
+2. In your cloud 9 workspace edit the file `/home/ubuntu/workspace/code/tasks/23/app.js`. In that file write a program that reads a text file containing lines of digits. For each line the program should add up all digits and show the result to the console.
+
+Example:
+<table>
+  <tr>
+    <th>Input</th>
+    <th>Output</th>
+  </tr>
+  <tr>
+    <td>11</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>10000</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>123</td>
+    <td>6</td>
+  </tr>
+</table>
+
+___
+
+
+### 24 Highest digit
+
+1. Review [Find maximum value in an array](https://github.com/Quobject/boscode/blob/master/docs/pseudocode.md#find-maximum-value-in-an-array).
+
+2. In your cloud 9 workspace edit the file `/home/ubuntu/workspace/code/tasks/24/app.js`. In that file write a program that reads in a line of digits from the console. The program should print out the highest digit to the console.
+
+Example:
+<table>
+  <tr>
+    <th>Input</th>
+    <th>Output</th>
+  </tr>
+  <tr>
+    <td>0000</td>
+    <td>0</td>
+  </tr>
+  <tr>
+    <td>10000</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>1230</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>43216</td>
+    <td>6</td>
+  </tr>
+</table>
+
+
+
+___
+
+
+### 25 Test length
+
+In your cloud 9 workspace edit the file `/home/ubuntu/workspace/code/tasks/25/app.js`. In that file write a program that reads in a two lines from the console. The first input should be an integer indicating a length `l`. The second input should be a word. If the length of the word is less or equal to `l` then the output should be `OK`. If the length of the word is greater than `l` then the output should be `TOO LONG`.
+
+Example:
+<table>
+  <tr>
+    <th>Input</th>
+    <th>Output</th>
+  </tr>
+  <tr>
+    <td>5<br>cat</td>
+    <td>OK</td>
+  </tr>
+  <tr>
+    <td>5<br>kangaroo</td>
+    <td>TOO LONG</td>
+  </tr>
+</table>
+ 
+2) In your cloud 9 workspace edit the file `/home/ubuntu/workspace/code/tasks/25/pseudocode.txt`. In this file write your javascript solution as pseudocode. 
+
+___
+
+
+### 26 How many e's
+
+1. Review the JavaScript String substring() Method: http://www.w3schools.com/jsref/jsref_substring.asp
+
+2. In your cloud 9 workspace edit the file `/home/ubuntu/workspace/code/tasks/26/app.js`. In that file write a program that reads in words from a text file, one word per line. If the word contains the letter `a`, the first part of the output should be `a-yes` otherwise is should be `a-no`. The second part of the output should count how many times the letter `e` occurs. Every word has only lowercase letters.
+
+Example:
+<table>
+  <tr>
+    <th>Input</th>
+    <th>Output</th>
+  </tr>
+  <tr>
+    <td>text<br>many<br>reads<br>weather</td>
+    <td>a-no e-1<br>a-yes e-0<br>a-yes e-1<br>a-yes e-2</td>
+  </tr>
+</table>
+
+___
+
+
+### 27 Camel case
+
+CamelCase (also camel caps or medial capitals) is the practice of writing compound words or phrases such that each word or abbreviation begins with a capital letter. Camel case may start with a capital or, especially in programming languages, with a lowercase letter.
+
+In your cloud 9 workspace edit the file `/home/ubuntu/workspace/code/tasks/27/app.js`. In the file write a program that converts strings to camel case. Read in rows of words from a text file. Each row convert to camel case and print to the console.
+
+Example:
+<table>
+  <tr>
+    <th>Input</th>
+    <th>Output</th>
+  </tr>
+  <tr>
+    <td>Foo Bar</td>
+    <td>fooBar</td>
+  </tr>
+  <tr>
+    <td>convert to camel case</td>
+    <td>convertToCamelCase</td>
+  </tr>
+</table>
+ 
+ 
+___
+
+
+### 28 Valid 24 hours
+
+In your cloud 9 workspace edit the file `/home/ubuntu/workspace/code/tasks/28/app.js`. The 24-hour system of time uses four digits to represent a time to the nearest minute between midnight (0000) and one minute to midnight on the same day (2359). Write a program that reads 4-digit numbers from a text file and checks if the number is a valid time. The output should be to the console.
+
+Example:
+<table>
+  <tr>
+    <th>Input</th>
+    <th>Output</th>
+  </tr>
+  <tr>
+    <td>0509</td>
+    <td>Valid time</td>
+  </tr>
+  <tr>
+    <td>0661</td>
+    <td>Invalid time</td>
+  </tr>
+  <tr>
+    <td>2609</td>
+    <td>Invalid time</td>
+  </tr>
+  <tr>
+    <td>1125</td>
+    <td>Valid time</td>
+  </tr>
+</table>
+
+___
+
+
+### 29 AM & PM
+
+In your cloud 9 workspace edit the file `/home/ubuntu/workspace/code/tasks/29/app.js`. The 24-hour system of time uses four digits to represent a time to the nearest minute between midnight (0000) and one minute to midnight on the same day (2359). Write a program that reads 4-digit numbers from a text file and checks if the time is before or after noon. Print AM or PM to the console.
+
+Example:
+<table>
+  <tr>
+    <th>Input</th>
+    <th>Output</th>
+  </tr>
+  <tr>
+    <td>0509</td>
+    <td>AM</td>
+  </tr>
+  <tr>
+    <td>0621</td>
+    <td>AM</td>
+  </tr>
+  <tr>
+    <td>2309</td>
+    <td>PM</td>
+  </tr>
+  <tr>
+    <td>1259</td>
+    <td>AM</td>
+  </tr>
+  <tr>
+    <td>1300</td>
+    <td>PM</td>
+  </tr>
+</table>
+
+
+
+___
+
+
+### 30 Word index
+
+In your cloud 9 workspace edit the file `/home/ubuntu/workspace/code/tasks/30/app.js`. In that file write a program that generates a simple index from a list of words from a text file, one per line. The index shows each word and the position of the word in the list, counting from 1. Print the index to the console.
+
+Example:
+<table>
+	<tr>
+	<th>Input</th>
+	<th>Output</th>
+	</tr>
+
+<tr><td><pre>Time<br>
+flies<br>
+like<br>
+an<br>
+arrow<br>
+but<br>
+fruit<br>
+flies<br>
+like<br>
+a<br>
+banana<br>
+Groucho<br>
+Marx<br>
+</pre></td
+><td><pre>
+Time 1<br>
+flies 2<br>
+like 3<br>
+an 4<br>
+arrow 5<br>
+but 6<br>
+fruit 7<br>
+flies 8<br>
+like 9<br>
+a 10<br>
+banana 11<br>
+Groucho 12<br>
+Marx 13<br>
+</pre></td></tr> 
+
+
+___
+
+### 31 Sorted index
+
+1. Review [array sort](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort).
+
+2. Same task as task `30 Word index` i.e. write a program that generates a simple index from a list of words from a text file, one per line. The index shows each word and the position of the word in the list, counting from 1. 
+
+3. In your cloud 9 workspace edit the file `/home/ubuntu/workspace/code/tasks/31/app.js`. New in this task: the index should be sorted by word (case-insensitive).
+ 
+Example:
+<table>
+	<tr>
+	<th>Input</th>
+	<th>Output</th>
+	</tr>
+
+<tr><td><pre>Time<br>
+flies<br>
+like<br>
+an<br>
+arrow<br>
+but<br>
+fruit<br>
+flies<br>
+like<br>
+a<br>
+banana<br>
+Groucho<br>
+Marx<br>
+</pre></td><td><pre>
+a 10<br>
+an 4<br>
+arrow 5<br>
+banana 11<br>
+but 6<br>
+flies 2<br>
+flies 8<br>
+fruit 7<br>
+Groucho 12<br>
+like 3<br>
+like 9<br>
+Marx 13<br>
+Time 1<br>
+</pre></td></tr>
+
+</table> 
+
+
+___
+
+
+### 32  Formatted index
+
+1. Same task as task `31 Sorted index` i.e. write a program that generates a simple index from a list of words from a text file, one per line. The index shows each word and the position of the word in the list, counting from 1. The index should be sorted by word (case-insensitive).
+
+2. In your cloud 9 workspace edit the file `/home/ubuntu/workspace/code/tasks/31/app.js`. New in this task: It must be formatted so the word and the position are separated by dots and the last character of the position number is in a fixed column.
+
+Example:
+<table>
+	<tr>
+	<th>Input</th>
+	<th>Output</th>
+	</tr>
+
+<tr><td><pre>Time<br>
+flies<br>
+like<br>
+an<br>
+arrow<br>
+but<br>
+fruit<br>
+flies<br>
+like<br>
+a<br>
+banana<br>
+Groucho<br>
+Marx<br>
+</pre></td><td><pre>
+a............10<br>
+an............4<br>
+arrow.........5<br>
+banana.......11<br>
+but...........6<br>
+flies.........2<br>
+flies.........8<br>
+fruit.........7<br>
+Groucho......12<br>
+like..........3<br>
+like..........9<br>
+Marx.........13<br>
+Time..........1<br>
+</pre></td></tr>
+
+___
+
+
+### 33 Length conversion
+
+In your cloud 9 workspace edit the file `/home/ubuntu/workspace/code/tasks/33/app.js`. In that file write a program that converts distances given in km, mm or cm into m. The program should read from the console and output to the console and stop if -1 is the input:
+
+Example:
+<table>
+  <tr>
+    <th>Input</th>
+    <th>Output</th>
+  </tr>
+<tr><td><pre>1m</pre></td><td><pre>1m</pre></td></tr>
+<tr><td><pre>1km</pre></td><td><pre>1000m</pre></td></tr>
+<tr><td><pre>34cm</pre></td><td><pre>0.34m</pre></td></tr>
+<tr><td><pre>900mm</pre></td><td><pre>0.9m</pre></td></tr>
+<tr><td><pre>33km</pre></td><td><pre>33000m</pre></td></tr> 
+<tr><td><pre>-1</pre></td></tr> 
+
+</table> 
+
+___
+
