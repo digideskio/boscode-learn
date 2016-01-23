@@ -53,6 +53,24 @@
 [31 Sorted index]( #31-sorted-index )   
 [32 Formatted index]( #32--formatted-index )   
 [33 Length conversion]( #33-length-conversion )   
+[34 Highest Integer]( #34-highest-integer )   
+[35 Multiple words]( #35-multiple-words )   
+[36 Odd numbers]( #36-odd-numbers )   
+[37 Vowels]( #37-vowels )   
+[38 Bar code]( #38-bar-code )   
+[39 Runs]( #39-runs )   
+[40 Printing numbers]( #40-printing-numbers )   
+[41 Average]( #41-average )   
+[42 Counting $]( #42-counting- )   
+[43 Words and characters]( #43-words-and-characters )   
+[44 Kaprekar Numbers]( #44-kaprekar-numbers )   
+[45 Digital Roots]( #45-digital-roots )   
+[46 Plurals]( #46-plurals )   
+[47 Team Counts]( #47-team-counts )   
+[48 Staircases]( #48-staircases )   
+[49 Two-up]( #49-two-up )   
+[50 Rank Generator]( #50-rank-generator )   
+
 
 
 *Codecademy Tasks*  
