@@ -1192,7 +1192,7 @@ banana 11<br>
 Groucho 12<br>
 Marx 13<br>
 </pre></td></tr> 
-
+</table> 
 
 ___
 
@@ -1285,7 +1285,7 @@ like..........9<br>
 Marx.........13<br>
 Time..........1<br>
 </pre></td></tr>
-
+</table> 
 ___
 
 
