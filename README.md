@@ -1457,7 +1457,7 @@ Example:
 
 and the number is valid since 60 mod 10 = 0.
 
-In your cloud 9 workspace edit the file `/home/ubuntu/workspace/code/tasks/38/app.js`. In that file write a program reads in any number of bar codes and determines whether or not each is valid. The input consists of a sequence of lines, each containing a 13-digit number. The last line contains 13 zeroes to signal the end of input.
+In your cloud 9 workspace edit the file `/home/ubuntu/workspace/code/tasks/38/app.js`. In that file write a program that reads in any number of bar codes and determines whether or not each is valid. The input consists of a sequence of lines, each containing a 13-digit number. The last line contains 13 zeroes to signal the end of input.
 
 For each code, print the code and either the string "OK" or the string "INVALID". The input needs to be read from a text file and the output should got to the console.
 
@@ -1485,4 +1485,535 @@ Example:
 </table>
 
 ___
+
+### 39 Runs
+
+A run is a list of contiguous numbers that are either all increasing (ups) or all decreasing (downs). Up runs and down runs always alternate, and the last element of one run is the first of the next run.
+
+In your cloud 9 workspace edit the file `/home/ubuntu/workspace/code/tasks/39/app.js`. In that file write a program that counts the number of runs in several lists of numbers. 
+
+Examples:
+
+<table>
+  <tr>
+    <th>Input</th>
+    <th>Output</th>
+  </tr>
+  <tr>
+    <td>4 1 8 12 17</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>2 5 9</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>-4 -5 -2 0 1 0</td>
+    <td>3</td>
+  </tr>
+</table>
+
+You can assume that there are always at least three numbers. The input needs to be read from a text file and the output should go to the console.
+___
+
+### 40 Printing numbers
+
+1. In your cloud 9 workspace edit the file `/home/ubuntu/workspace/code/tasks/40/app.js`. In that file write a program that reads in two numbers from the console and prints out every number between those two numbers including the two number to the console. You can assume the second number is always greater than the first. 
+
+2. In your cloud 9 workspace edit the file `/home/ubuntu/workspace/code/tasks/40/pseudocode.txt`. In this file write your javascript solution as pseudocode.
+
+<table>
+  <tr>
+    <th>Input</th>
+    <th>Output</th>
+  </tr>
+  <tr>
+    <td>1</br>2</td>
+    <td>1<br>2</td>
+  </tr>
+  <tr>
+    <td>1</br>3</td>
+    <td>1<br>
+2<br>
+3</td>
+  </tr>
+  <tr>
+    <td>5</br>10</td>
+    <td>5<br>
+6<br>
+7<br>
+8<br>
+9<br>
+10</td>
+  </tr>
+</table>
+
+___
+
+### 41 Average
+
+1. In your cloud 9 workspace edit the file `/home/ubuntu/workspace/code/tasks/41/app.js`. In that file write a program that, given a list of numbers calculates the average of those numbers. The list is terminated by a line containing -1 (sentinel value). Don't regard this value, it's there just to make it easy for you to tell that the list is finished. The input needs to be read from a text file and the output should go to the console.
+
+2. In your cloud 9 workspace edit the file `/home/ubuntu/workspace/code/tasks/41/pseudocode.txt`. In this file write your javascript solution as pseudocode.
+
+Examples:
+
+<table>
+  <tr>
+    <th>Input</th>
+    <th>Output</th>
+  </tr>
+  <tr>
+    <td>1<br>
+2<br>
+3<br>
+4<br>
+-1
+</td>
+    <td>2.5</td>
+  </tr>
+  <tr>
+    <td>3<br>
+5<br>
+7<br>
+2<br>
+-1</td>
+    <td>4.25</td>
+  </tr>
+  <tr>
+    <td>99.9<br>
+100.1<br>
+100.2<br>
+101.3<br>
+200<br>
+1000<br>
+-1</td>
+    <td>266.92</td>
+  </tr>
+</table>
+
+___
+
+### 42 Counting $
+
+1. In your cloud 9 workspace edit the file `/home/ubuntu/workspace/code/tasks/42/app.js`. In that file write a program that reads a text file containing strings made up of #$%. The program counts the number of $ for each line.
+
+2. In your cloud 9 workspace edit the file `/home/ubuntu/workspace/code/tasks/42/pseudocode.txt`. In this file write your javascript solution as pseudocode.
+
+Examples:
+
+<table>
+  <tr>
+    <th>Input</th>
+    <th>Output</th>
+  </tr>
+  <tr>
+    <td>####</td>
+    <td>0</td>
+  </tr>
+  <tr>
+    <td>###%%%$</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>$$$$$</td>
+    <td>5</td>
+  </tr>
+</table>
+
+___
+
+### 43 Words and characters
+
+In your cloud 9 workspace edit the file `/home/ubuntu/workspace/code/tasks/43/app.js`. In that file write a program that reads a text file containing words per line. The program should count the number of words and the number of characters for each line.
+
+Examples:
+
+<table>
+  <tr>
+    <th>Input</th>
+    <th>Output</th>
+  </tr>
+  <tr>
+    <td>Hello world</td>
+    <td>2 words, 10 characters</td>
+  </tr>
+  <tr>
+    <tdLorem ipsum dolor sit amet</td>
+    <td>5 words, 22 characters</td>
+  </tr>
+</table>
+
+___
+
+### 44 Kaprekar Numbers
+
+Mr D R Kaprekar (1905–1986), was an Indian schoolteacher and recreational mathematician. Among his many achievements is the discovery of a set of numbers with interesting properties that now bear his name.
+
+Consider a positive integer k with n digits. Follow these steps:
+
+1. Square k.
+2. Split the result into two pieces, the last n digits and the rest.
+3. Add these pieces (if one is empty, treat as zero).
+4. If the sum is equal to k, then k is a Kaprekar number, otherwise it's not.
+
+Example
+
+1 and 45 are both Kaprekar numbers because
+```
+1*1 = 1 and 0 + 1 = 1
+45*45 = 2025 and 20 + 25 = 45
+```
+
+but 123 is not since
+```
+123*123 = 15129 and 15 + 129 is not equal to 123
+```
+
+In your cloud 9 workspace edit the file `/home/ubuntu/workspace/code/tasks/44/app.js`. In that file write a program that displays all the Kaprekar numbers less than 10000, on one line. A god solution is to write a function that tests an integer to see if it's a Kaprekar number, then use it in a loop that tries all possibilities. If your programming language doesn't support mixing integers and strings, you may need to use a built-in function to convert the number to a string so you can pick off the last n digits. Alternatively you can use modular arithmetic (% or Mod operator).
+
+If you've just started programming, for partial marks just write a program that reads a number, determines if it's a Kaprekar number or not, and displays a suitable message that includes the number. Test it, one at a time, with each of these numbers
+```
+45 673 272 2223 7381 7777 9998
+```
+___
+
+### 45 Digital Roots
+
+Numerologists ascribe certain magical properties to numbers, and in turn derive numbers from words or phrases. Nonsense like this can still provide an interesting computational exercise.
+
+The two algorithms of interest to us are:
+
+Given a positive integer N, add up the digits in its decimal representation. If that sum has more than one digit, add up its digits and so on until only a single digit remains. That's the digital root of N.
+
+
+Given a phrase containing one or more words, assign a number to each letter equal to its position in the alphabet, so that a is 1, b is 2 and so on to z (26). Capital letters are counted the same as small letters, and non-letters are ignored. Now add up the values and reduce the sum to its digital root, which becomes the digital root of the phrase. This process is called gematria.
+
+In your cloud 9 workspace edit the file `/home/ubuntu/workspace/code/tasks/45/app.js`. In that file write a program that reads in up to 20 lines, preceded by the number of lines from a textfile. For each line, if it contains only a number, calculate and display the digital root, spaces and the number. If it's a phrase, calculate the letter sum, then display the digital root, the sum and the phrase, agsin separated by spaces. Input and calculated numbers are less than a billion and phases are shorter than 100 characters.
+
+Example
+Input:
+```
+5
+123
+the quick brown fox
+7823438
+"640 K ought to be enough for anybody". Bill Gates, 1981.
+Progcomp
+```
+Output:
+```
+6       123
+4       211     the quick brown fox
+8       7823438
+1       406     "640 K ought to be enough for anybody". Bill Gates, 1981.
+4       103     Progcomp
+```
+
+*Test Data*
+
+You should test your program on the following data:
+
+```
+14
+99999
+10000
+7
+12345678
+98765432
+June
+UNSW Progcomp Twenty-thirteen
+the second figure thrice
+"Tragedy is when I cut my finger,...
+Comedy is when you walk into an open sewer and die" (attributed to Mel Brooks).
+the thirty-sixth triangular number, declared the number of the beast
+A Clockwork Orange, Stanley Kubrick: 3*114+1=343
+(114 was Kubrick's signature code, it appears in four films as CRM114 or serum 114 or C-rm114.)
+Nineteen associates attacked the World Trade Center in New York and the Pentagon in Washington.
+```
+
+___
+
+### 46 Plurals
+
+How many times has a computer told you something using phrases like these?
+```
+3 item(s) in your basket
+1 message(s) in your inbox
+0 day(s) to go
+```
+
+That's just lazy programming: the system knows exactly whether you have no items, one item or many items, so why can't it use the right words, like any five-year-old can?
+
+To counter this insidious attitude of "Oh it's too much trouble, the user can work it out," this task produces the appropriate phrase based on quantity, assuming the noun isn't one of a number that form irregular plurals (leave that for another time).
+
+Given a non-negative integer quantity Q and a word, the correct phrase to print is either
+  * "no" and the plural of the word, if Q is zero;
+  * "one" and the singular of the word, if Q is 1; or
+  * the quantity as a decimal integer and the plural of the word, otherwise.
+
+To form the plural of a word, use the following rules that cover common cases:
+  * If the word ends in "s", "x", "z", "ch" or "sh", append "es";
+  * If the word ends in "o" preceded by a consonant (that is, not "a", "e", "i", "o", "u" or "y" in this context), append "es";
+  * If the word ends in "y" preceded by a consonant, remove the "y" and append "ies";
+  * If the word ends in "fe" preceded by a letter other than another "f", remove the "fe" and append "ves";
+  * If the word ends in "f" preceded by a letter other than another "f", remove the "f" and append "ves"; or
+  * append "s" otherwise.
+
+In your cloud 9 workspace edit the file `/home/ubuntu/workspace/code/tasks/46/app.js`. In that file write a program that reads a quantity and word from each line of input from a textfle, separated by a space, and displays the appropriate phrase according to the rules above. The first input line contains the number of test cases that follow, which is a maximum of 30. Quantities are less than 10000 and no word is longer than 20 characters. Words are strictly in lower case.
+
+Example
+
+Input:
+```
+5
+6 ferry
+0 potato
+1 camera
+2 knife
+243 box
+```
+Output:
+```
+6 ferries
+no potatoes
+one camera
+2 knives
+243 boxes
+```
+
+*Test Data*
+You should test your program on the following data:
+```
+27
+1 caterpillar
+101 dalmation
+9999 cat
+5 bee
+0 computer
+4 compass
+2 bus
+0 ibis
+8 lynx
+15 axe
+15 ax
+15 adze
+4 waltz
+7 church
+3 wish
+12 bath
+8 potato
+3 toe
+6 embryo
+6 kangaroo
+5 whisky
+3 kidney
+52 handcuff
+2 giraffe
+3 dwarf
+9 wife
+4 handkerchief
+```
+
+
+___
+
+### 47 Team Counts
+
+The Progcomp 2011 rules state:
+  * In addition to any number of teams of three, each high school will be allowed to register exactly ONE or TWO teams of 2 students. 
+  * A high school with a single outstanding student may register a team consisting only of that student, but only if no other team is registered from that school.
+
+In your cloud 9 workspace edit the file `/home/ubuntu/workspace/code/tasks/45/app.js`. In that file write a program that, given the number of participants a school has (1 or more), determines exactly how many teams of 3, teams of 2 and teams of 1 the school is allowed to register.
+
+The first line of input to the program is the number of schools, followed by the number of participants for each school, each on a separate line. No other information is provided or needed.
+
+The program should show the number of participants and how many teams of each size, using singular or plural terms as appropriate ("team" vs "teams"), and omitting mention of zero cases. Use the format shown below, including a comma to separate items and a full stop at the end. Marks are awarded both for computational correctness and following the format.
+
+Example
+
+Input:
+```
+4
+7
+9
+2
+1
+```
+
+Output:
+```
+7 participants = 1 team of 3, 2 teams of 2.
+9 participants = 3 teams of 3.
+2 participants = 1 team of 2.
+1 participant = 1 team of 1.
+```
+
+Test Data
+
+You should test your program on the following data:
+```
+9
+3
+22
+1
+8
+120
+121
+4
+5
+2
+```
+
+Input from a textfile and output to the console.
+
+___
+
+### 48 Staircases
+
+A certain integer sequence is constructed as follows: Start with the integer 1. Add 1 to it (giving 2), multiply the result by 1. Then add 2 to that, multiply by 2, add 3, multiply by 3 and so on.
+
+The sequence thus begins
+```
+1  2  2  4  8  11  33  37  148...
+```
+
+Because you use the same factor to add and then multiply before incrementing it, let's call it the Staircase Sequence.
+
+1. In your cloud 9 workspace edit the file `/home/ubuntu/workspace/code/tasks/48/app.js`. In that file write a program to print all values of the Staircase Sequence that are less than a million (1,000,000 or 10^6), one per line.
+
+2. In your cloud 9 workspace edit the file `/home/ubuntu/workspace/code/tasks/48/pseudocode.txt`. In this file write your javascript solution as pseudocode.
+
+
+___
+
+### 49 Two-up
+
+The traditional Australian gambling game of two-up can legally be played only on Anzac Day each year. Its rules are simple, especially in the limited form described here. One person, the Spinner, bets Heads (H) or Tails (T). He or she then throws two pennies up in the air. If the pennies land with one head showing and one tail showing, the result is called ODDS and the Spinner throws again. Otherwise the Spinner wins if the pennies (now both Heads or both Tails) match the bet they made, and loses otherwise.
+
+If five ODDS are thrown in a row, the Spinner loses too.
+
+In your cloud 9 workspace edit the file `/home/ubuntu/workspace/code/tasks/49/app.js`. In that file write a program that scores this version of two-up. The input consists of several lines read from a textfile, each representing a throw, preceded by the number of throws. Each throw consists of a bet (H or T) followed by the result of the throw (two symbols, each H or T). The three letters are separated by a space.
+
+The program should repeat the input and show the result of the throw on the same line. The result can be WIN, LOSE, ODDS or LOSE: 5 ODDS.
+
+Example
+
+Input:
+```
+9
+T T H
+T T T
+H T T
+H T H
+H H T
+H H T
+H T H
+H T H
+T H H
+```
+
+Output:
+```
+T T H ODDS
+T T T WIN
+H T T LOSE
+H T H ODDS
+H H T ODDS
+H H T ODDS
+H T H ODDS
+H T H LOSE: 5 ODDS
+T H H LOSE
+```
+You can assume each line of input is a valid throw. Bets will only change after a win or loss.
+
+*Test Data*
+You should test your program on the following data.
+```
+16
+H H T
+H T H
+H H H
+H T T
+T H T
+T H T
+T T H
+T H T
+T T H
+T T T
+H T H
+H T H
+H H T
+H H T
+H T T
+T H H
+```
+
+___
+
+### 50 Rank Generator
+
+In your cloud 9 workspace edit the file `/home/ubuntu/workspace/code/tasks/50/app.js`. Given a list of scores, in order, write a program to generate a rank for each entry. An entry's rank is just its position in the sequence, starting at 1. If there are equal values, however, each of the equal values shares the same rank. This doesn't affect subsequent ranks. For example, here is a list of scores (in descending order) with the corresponding ranks written underneath:
+```
+134 109 109  104  94  94  94  67  42
+1   2eq 2eq  4    5eq 5eq 5eq 8   9
+```
+The input format has one score per line. There is no formal limit to the number of values.
+  * A score is a non-negative integer or real number. There will be at most 3 decimal places.
+  * The list is terminated by a line containing -1. Don't rank this value, it's there just to make it easy for you to tell that the list is finished.
+  * Valid numbers in the list are in descending order (each smaller than or equal to the previous, except for the first).
+  * Equal values may have a different representation, such as 12 and 12.00.
+  * The program's output should be a copy of the input, with each value followed by spaces and the rank. Non-equal ranks are positive integers; equal ranks have the common rank with eq appended.
+  * You can reformat the value if you like, as long as the numeric value is apparent.
+  * If a value is out of order (greater than the preceding valid value), show its rank as "--" and then ignore this value completely (that is, assume it didn't exist).
+
+You may assume that all numbers are well-formed (legal integer or real format).
+
+*Test Data*
+You should test your program on the following examples.
+Test 1 (all valid data)
+```
+100
+100
+99
+98.5
+98.4
+98.40
+98.4
+98.399
+97.1
+92
+92
+92
+92
+0.000
+0
+-1
+```
+Test 2 (some out of order)
+```
+1243
+1234
+1243
+1243
+1243
+1234
+1234
+1233
+1222
+1211
+1233
+1234
+1222
+1211
+1211
+1210
+-1
+```
+
+Input should be from a textfile and output to the console.
+
+
+
+
 
