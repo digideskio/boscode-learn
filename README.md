@@ -1469,12 +1469,23 @@ Example:
     <th>Input</th>
     <th>Output</th>
   </tr>
- <tr><td><pre>9300652010916</pre></td><td><pre>9300652010916 OK</pre></td></tr>
- <tr><td><pre>9300652040916</pre></td><td><pre>9300652040916 INVALID</pre></td></tr>
- <tr><td><pre>9315626000480</pre></td><td><pre>9315626000480 OK</pre></td></tr>
- <tr><td><pre>9780805300604</pre></td><td><pre>9780805300604 OK</pre></td></tr>
- <tr><td><pre>9780803500604</pre></td><td><pre>9780803500604 INVALID</pre></td></tr>
- <tr><td><pre>9781875932548</pre></td><td><pre>9781875932548 INVALID</pre></td></tr>
+ <tr><td><pre>
+ 9300652010916<br>
+9300652040916<br>
+9315626000480<br>
+9780805300604<br>
+9780803500604<br>
+9781875932548<br>
+0000000000000
+ </pre></td> 
+ <td><pre>
+9300652010916 OK<br>
+9300652040916 INVALID<br>
+9315626000480 OK<br>
+9780805300604 OK<br>
+9780803500604 INVALID<br>
+9781875932548 INVALID<br> 
+ </pre></td></tr>
 </table>
 
 ___
