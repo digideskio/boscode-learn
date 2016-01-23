@@ -1326,3 +1326,156 @@ Example:
 
 ___
 
+
+### 34 Highest Integer
+
+1. In your cloud 9 workspace edit the file `/home/ubuntu/workspace/code/tasks/34/app.js`. In that file write a program that reads in three numbers from the console and prints out the highest number to the console.
+
+2) In your cloud 9 workspace edit the file `/home/ubuntu/workspace/code/tasks/34/pseudocode.txt`. In this file write your javascript solution as pseudocode. 
+
+
+Examples:
+
+<table>
+  <tr>
+    <th>Input</th>
+    <th>Output</th>
+  </tr>
+  <tr>
+    <td>1</br>2 </br>3</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>11</br>5</br>2</td>
+    <td>11</td>
+  </tr>
+</table>
+
+
+
+
+___
+
+### 35 Multiple words
+
+1) In your cloud 9 workspace edit the file `/home/ubuntu/workspace/code/tasks/35/app.js`. In that file write a program that reads in one number `n` and one string from the console. The program should print out `n` times the given string.
+
+2) In your cloud 9 workspace edit the file `/home/ubuntu/workspace/code/tasks/35/pseudocode.txt`. In this file write your javascript solution as pseudocode. 
+
+Examples:
+
+<table>
+  <tr>
+    <th>Input</th>
+    <th>Output</th>
+  </tr>
+  <tr>
+    <td>1</br>hello</td>
+    <td>hello</td>
+  </tr>
+  <tr>
+    <td>3</br>world</td>
+    <td>world</br>world</br>world</td>
+  </tr>
+</table>
+
+___
+
+### 36 Odd numbers
+
+1. In your cloud 9 workspace edit the file `/home/ubuntu/workspace/code/tasks/36/app.js`. In that file write a program that produces a table containing numbers printed in three columns and several rows.  
+ * First column: the row number, starting at 1, then 2, 3, 4, 
+ * Second column: the corresponding odd number, starting at 1, then 3, 5, 7, ....
+ * Third column: the sum of the numbers in column 2 up to and including that row. So the first row will show 1, then 1+3, then 1+3+5, ...  
+ The program should stop after the 15th row is displayed.
+
+2) In your cloud 9 workspace edit the file `/home/ubuntu/workspace/code/tasks/36/pseudocode.txt`. In this file write your javascript solution as pseudocode. 
+ 
+Example:
+
+```bash
+1        1        1
+2        3        4
+3        5        ?
+4        7        ?
+5        9        ?  
+```
+
+___
+
+### 37 Vowels
+
+In your cloud 9 workspace edit the file `/home/ubuntu/workspace/code/tasks/37/app.js`. In that file write a program that given a string, prints it out with the vowels (aeiouAEIOU) and spaces removed. The input needs to be read from a text file and the output should be the console.
+
+Examples:
+
+<table>
+  <tr>
+    <th>Input</th>
+    <th>Output</th>
+  </tr>
+  <tr>
+    <td>Backwards</td>
+    <td>Bckwrds</td>
+  </tr>
+  <tr>
+    <td>If at first you don't succeed...</td>
+    <td>ftfrstydn'tsccd...</td>
+  </tr>
+  <tr>
+    <td>Aeiouuua</td>
+    <td></td>
+  </tr>
+</table>
+
+___
+
+### 38 Bar code
+
+Items purchased at supermarkets, bookshops and other retail outlets have a product bar code printed on the packaging. The bar code consists of lines of varying thickness, encoding a 13-digit product identifying number.
+
+The number consists of four parts:
+
+* The first two digits represents a type code (93 is for Australian goods, 97 for books)
+* The next five digits is a manufacturer's identifying number (for example, 00652)
+* The next five digits is the product number assigned by the manufacturer (01091)
+* The last (thirteenth) digit is what is called a check digit.
+
+The check digit is used to help detect if an error has occurred during scanning, or by someone incorrectly typing the number. It is chosen such that the sum of the digits in odd positions (the first, third, fifth and so on, including the check digit itself) plus three times the sum of the digits in the even positions is a multiple of 10. This means that if any one digit is misread as a different value, the sum will be inappropriate (not a multiple of 10) and the barcode can be rejected.
+
+Example:
+```
+9300652010916
+
+^ ^ ^ ^ ^ ^ ^ odd sum is 9+0+6+2+1+9+6 = 33
+
+^ ^ ^ ^ ^ ^ even sum is 3+0+5+0+0+1 = 9
+
+
+33 + 3\*9 = 60
+```
+
+and the number is valid since 60 mod 10 = 0.
+
+In your cloud 9 workspace edit the file `/home/ubuntu/workspace/code/tasks/38/app.js`. In that file write a program reads in any number of bar codes and determines whether or not each is valid. The input consists of a sequence of lines, each containing a 13-digit number. The last line contains 13 zeroes to signal the end of input.
+
+For each code, print the code and either the string "OK" or the string "INVALID". The input needs to be read from a text file and the output should got to the console.
+
+
+Example:
+
+<table>
+  <tr>
+    <th>Input</th>
+    <th>Output</th>
+  </tr>
+ <tr><td><pre>9300652010916</pre></td><td><pre>9300652010916 OK</pre></td></tr>
+ <tr><td><pre>9300652040916</pre></td><td><pre>9300652040916 INVALID</pre></td></tr>
+ <tr><td><pre>9315626000480</pre></td><td><pre>9315626000480 OK</pre></td></tr>
+ <tr><td><pre>9780805300604</pre></td><td><pre>9780805300604 OK</pre></td></tr>
+ <tr><td><pre>9780803500604</pre></td><td><pre>9780803500604 INVALID</pre></td></tr>
+ <tr><td><pre>9781875932548</pre></td><td><pre>9781875932548 INVALID</pre></td></tr>
+</table>
+
+___
+
