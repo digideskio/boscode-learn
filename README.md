@@ -41,6 +41,8 @@
 *Codecademy Tasks*  
 [codecademy tasks](codecademy-tasks.md)
 
+*Arduino Tasks*  
+[arduino tasks](arduino-tasks.md)
 
 ## Installation
 
