@@ -1670,7 +1670,7 @@ but 123 is not since
 123*123 = 15129 and 15 + 129 is not equal to 123
 ```
 
-In your cloud 9 workspace edit the file `/home/ubuntu/workspace/code/tasks/44/app.js`. In that file write a program that displays all the Kaprekar numbers less than 10000, on one line. A god solution is to write a function that tests an integer to see if it's a Kaprekar number, then use it in a loop that tries all possibilities. If your programming language doesn't support mixing integers and strings, you may need to use a built-in function to convert the number to a string so you can pick off the last n digits. Alternatively you can use modular arithmetic (% or Mod operator).
+In your cloud 9 workspace edit the file `/home/ubuntu/workspace/code/tasks/44/app.js`. In that file write a program that displays all the Kaprekar numbers less than 10000, on one line. A good solution is to write a function that tests an integer to see if it's a Kaprekar number, then use it in a loop that tries all possibilities. If your programming language doesn't support mixing integers and strings, you may need to use a built-in function to convert the number to a string so you can pick off the last n digits. Alternatively you can use modular arithmetic (% or Mod operator).
 
 If you've just started programming, for partial marks just write a program that reads a number, determines if it's a Kaprekar number or not, and displays a suitable message that includes the number. Test it, one at a time, with each of these numbers
 ```
@@ -1824,7 +1824,7 @@ The Progcomp 2011 rules state:
   * In addition to any number of teams of three, each high school will be allowed to register exactly ONE or TWO teams of 2 students. 
   * A high school with a single outstanding student may register a team consisting only of that student, but only if no other team is registered from that school.
 
-In your cloud 9 workspace edit the file `/home/ubuntu/workspace/code/tasks/45/app.js`. In that file write a program that, given the number of participants a school has (1 or more), determines exactly how many teams of 3, teams of 2 and teams of 1 the school is allowed to register.
+In your cloud 9 workspace edit the file `/home/ubuntu/workspace/code/tasks/47/app.js`. In that file write a program that, given the number of participants a school has (1 or more), determines exactly how many teams of 3, teams of 2 and teams of 1 the school is allowed to register.
 
 The first line of input to the program is the number of schools, followed by the number of participants for each school, each on a separate line. No other information is provided or needed.
 
@@ -1970,7 +1970,9 @@ The input format has one score per line. There is no formal limit to the number 
 You may assume that all numbers are well-formed (legal integer or real format).
 
 *Test Data*
+
 You should test your program on the following examples.
+
 Test 1 (all valid data)
 ```
 100
@@ -1990,6 +1992,7 @@ Test 1 (all valid data)
 0
 -1
 ```
+
 Test 2 (some out of order)
 ```
 1243
