@@ -37,6 +37,23 @@
 [15 Object properties](#15-object-properties)  
 [16 Functions](#16-functions)  
 [17 Function arguments](#17-function-arguments)  
+[18 Sum]( #18-sum )   
+[19 Highindex]( #19-highindex )   
+[20 Binary sum]( #20-binary-sum )   
+[21 Integer addition]( #21-integer-addition )   
+[22 Comparing strings]( #22-comparing-strings )   
+[23 Digit sum]( #23-digit-sum )   
+[24 Highest digit]( #24-highest-digit )   
+[25 Test length]( #25-test-length )   
+[26 How many e's]( #26-how-many-es )   
+[27 Camel case]( #27-camel-case )   
+[28 Valid 24 hours]( #28-valid-24-hours )   
+[29 AM & PM]( #29-am--pm )   
+[30 Word index]( #30-word-index )   
+[31 Sorted index]( #31-sorted-index )   
+[32 Formatted index]( #32--formatted-index )   
+[33 Length conversion]( #33-length-conversion )   
+
 
 *Codecademy Tasks*  
 [codecademy tasks](codecademy-tasks.md)
