@@ -1016,7 +1016,9 @@ ___
 
 ### 25 Test length
 
-In your cloud 9 workspace edit the file `/home/ubuntu/workspace/code/tasks/25/app.js`. In that file write a program that reads in a two lines from the console. The first input should be an integer indicating a length `l`. The second input should be a word. If the length of the word is less or equal to `l` then the output should be `OK`. If the length of the word is greater than `l` then the output should be `TOO LONG`.
+1. In your cloud 9 workspace edit the file `/home/ubuntu/workspace/code/tasks/25/app.js`. In that file write a program that reads in a two lines from the console. The first input should be an integer indicating a length `l`. The second input should be a word. If the length of the word is less or equal to `l` then the output should be `OK`. If the length of the word is greater than `l` then the output should be `TOO LONG`.
+
+2) In your cloud 9 workspace edit the file `/home/ubuntu/workspace/code/tasks/25/pseudocode.txt`. In this file write your javascript solution as pseudocode. 
 
 Example:
 <table>
@@ -1033,9 +1035,6 @@ Example:
     <td>TOO LONG</td>
   </tr>
 </table>
- 
-2) In your cloud 9 workspace edit the file `/home/ubuntu/workspace/code/tasks/25/pseudocode.txt`. In this file write your javascript solution as pseudocode. 
-
 ___
 
 
@@ -1164,7 +1163,6 @@ Example:
 	<th>Input</th>
 	<th>Output</th>
 	</tr>
-
 <tr><td><pre>Time<br>
 flies<br>
 like<br>
@@ -1212,7 +1210,6 @@ Example:
 	<th>Input</th>
 	<th>Output</th>
 	</tr>
-
 <tr><td><pre>Time<br>
 flies<br>
 like<br>
@@ -1309,7 +1306,6 @@ Example:
 <tr><td><pre>900mm</pre></td><td><pre>0.9m</pre></td></tr>
 <tr><td><pre>33km</pre></td><td><pre>33000m</pre></td></tr> 
 <tr><td><pre>-1</pre></td></tr> 
-
 </table> 
 
 ___
