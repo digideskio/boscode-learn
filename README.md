@@ -1303,7 +1303,9 @@ ___
 
 ### 33 Length conversion
 
-In your cloud 9 workspace edit the file `/home/ubuntu/workspace/code/tasks/33/app.js`. In that file write a program that converts distances given in km, mm or cm into m. The program should read from the console and output to the console and stop if -1 is the input:
+1. Review the JavaScript String indexOf() Method http://www.w3schools.com/jsref/jsref_indexof.asp.
+
+2. In your cloud 9 workspace edit the file `/home/ubuntu/workspace/code/tasks/33/app.js`. In that file write a program that converts distances given in km, mm or cm into m. The program should read from the console and output to the console and stop if -1 is the input:
 
 Example:
 <table>
@@ -1326,7 +1328,7 @@ ___
 
 1. In your cloud 9 workspace edit the file `/home/ubuntu/workspace/code/tasks/34/app.js`. In that file write a program that reads in three numbers from the console and prints out the highest number to the console.
 
-2) In your cloud 9 workspace edit the file `/home/ubuntu/workspace/code/tasks/34/pseudocode.txt`. In this file write your javascript solution as pseudocode. 
+2. In your cloud 9 workspace edit the file `/home/ubuntu/workspace/code/tasks/34/pseudocode.txt`. In this file write your javascript solution as pseudocode. 
 
 
 Examples:
@@ -1353,9 +1355,9 @@ ___
 
 ### 35 Multiple words
 
-1) In your cloud 9 workspace edit the file `/home/ubuntu/workspace/code/tasks/35/app.js`. In that file write a program that reads in one number `n` and one string from the console. The program should print out `n` times the given string.
+1. In your cloud 9 workspace edit the file `/home/ubuntu/workspace/code/tasks/35/app.js`. In that file write a program that reads in one number `n` and one string from the console. The program should print out `n` times the given string.
 
-2) In your cloud 9 workspace edit the file `/home/ubuntu/workspace/code/tasks/35/pseudocode.txt`. In this file write your javascript solution as pseudocode. 
+2. In your cloud 9 workspace edit the file `/home/ubuntu/workspace/code/tasks/35/pseudocode.txt`. In this file write your javascript solution as pseudocode. 
 
 Examples:
 
@@ -1384,7 +1386,7 @@ ___
  * Third column: the sum of the numbers in column 2 up to and including that row. So the first row will show 1, then 1+3, then 1+3+5, ...  
  The program should stop after the 15th row is displayed.
 
-2) In your cloud 9 workspace edit the file `/home/ubuntu/workspace/code/tasks/36/pseudocode.txt`. In this file write your javascript solution as pseudocode. 
+2. In your cloud 9 workspace edit the file `/home/ubuntu/workspace/code/tasks/36/pseudocode.txt`. In this file write your javascript solution as pseudocode. 
  
 Example:
 
@@ -1591,9 +1593,8 @@ ___
 
 ### 42 Counting $
 
-1. In your cloud 9 workspace edit the file `/home/ubuntu/workspace/code/tasks/42/app.js`. In that file write a program that reads a text file containing strings made up of #$%. The program counts the number of $ for each line.
+In your cloud 9 workspace edit the file `/home/ubuntu/workspace/code/tasks/42/app.js`. In that file write a program that reads a text file containing strings made up of #$%. The program counts the number of $ for each line.
 
-2. In your cloud 9 workspace edit the file `/home/ubuntu/workspace/code/tasks/42/pseudocode.txt`. In this file write your javascript solution as pseudocode.
 
 Examples:
 
