@@ -870,31 +870,6 @@ ___
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ### 18 Sum
 
 1. In your cloud 9 workspace edit the file `/home/ubuntu/workspace/code/tasks/18/app.js`. In that file, write a program that reads in two numbers from the console and adds them up. Print the result to the console.
@@ -1053,9 +1028,9 @@ ___
 
 ### 25 Test length
 
-1. In your cloud 9 workspace edit the file `/home/ubuntu/workspace/code/tasks/25/app.js`. In that file write a program that reads in a two lines from the console. The first input should be an integer indicating a length `l`. The second input should be a word. If the length of the word is less or equal to `l` then the output should be `OK`. If the length of the word is greater than `l` then the output should be `TOO LONG`.
+1. In your cloud 9 workspace edit the file `/home/ubuntu/workspace/code/tasks/25/app.js`. In that file write a program that reads in two lines from the console. The first input should be an integer indicating a length `l`. The second input should be a word. If the length of the word is less or equal to `l` then the output should be `OK`. If the length of the word is greater than `l` then the output should be `TOO LONG`.
 
-2) In your cloud 9 workspace edit the file `/home/ubuntu/workspace/code/tasks/25/pseudocode.txt`. In this file write your javascript solution as pseudocode. 
+2. In your cloud 9 workspace edit the file `/home/ubuntu/workspace/code/tasks/25/pseudocode.txt`. In this file write your javascript solution as pseudocode. 
 
 Example:
 <table>
@@ -1235,7 +1210,7 @@ ___
 
 ### 31 Sorted index
 
-1. Review [array sort](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort).
+1. Review [array sort](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort) and also http://stackoverflow.com/a/9645447/1109316.
 
 2. Same task as task 30 Word index i.e. write a program that generates a simple index from a list of words from a text file, one per line. The index shows each word and the position of the word in the list, counting from 1. 
 
