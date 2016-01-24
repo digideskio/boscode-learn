@@ -4,6 +4,8 @@
 [![NPM](https://nodei.co/npm/boscode-learn.png?downloads=true&downloadRank=true)](https://nodei.co/npm/boscode-learn/)
 [![NPM](https://nodei.co/npm-dl/boscode-learn.png?months=6&height=3)](https://nodei.co/npm/boscode-learn/)
 
+See also [boscode](https://github.com/Quobject/boscode).
+
 ## Table of Content
 [Installation](#installation)  
 [Useful bash terminal commands](#useful-bash-terminal-commands)  
