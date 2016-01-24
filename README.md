@@ -1666,7 +1666,7 @@ but 123 is not since
 123*123 = 15129 and 15 + 129 is not equal to 123
 ```
 
-In your cloud 9 workspace edit the file `/home/ubuntu/workspace/code/tasks/44/app.js`. In that file write a program that displays all the Kaprekar numbers less than 10000, on one line. A good solution is to write a function that tests an integer to see if it's a Kaprekar number, then use it in a loop that tries all possibilities. If your programming language doesn't support mixing integers and strings, you may need to use a built-in function to convert the number to a string so you can pick off the last n digits. Alternatively you can use modular arithmetic (% or Mod operator).
+In your cloud 9 workspace edit the file `/home/ubuntu/workspace/code/tasks/44/app.js`. In that file write a program that displays all the Kaprekar numbers less than 10000. A good solution is to write a function that tests an integer to see if it's a Kaprekar number, then use it in a loop that tries all possibilities. If your programming language doesn't support mixing integers and strings, you may need to use a built-in function to convert the number to a string so you can pick off the last n digits. (for javascript see e.g. [JavaScript Number toString() Method](http://www.w3schools.com/jsref/jsref_tostring_number.asp)).
 
 If you've just started programming, for partial marks just write a program that reads a number, determines if it's a Kaprekar number or not, and displays a suitable message that includes the number. Test it, one at a time, with each of these numbers
 ```
