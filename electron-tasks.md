@@ -2,7 +2,7 @@
 
 ## Table of Content
 
-[01 Comparison 1]( #01-comparison-1 )   
+[01 Hello world]( #01-hello-world )   
 
 
 ## Installation
@@ -11,12 +11,9 @@ This should run locally on your laptop and not in cloud 9.
 * Install SmartGit http://www.syntevo.com/smartgit/download
 * Install Node.js https://nodejs.org/en/download/
 * Install Visual Studio Code https://code.visualstudio.com/Download
-* Open terminal (Mac) or powershell (Windows)
-* npm install electron-prebuilt -g
+* Open terminal (Mac) or powershell (Windows) `npm install electron-prebuilt -g`
 * Create a directory with windows explorer c:/code
 * Use smartgit Repository > Clone.. and clone https://github.com/Quobject/boscode-learn.git, into Path: C:\code
-
-
 
 ___
 
