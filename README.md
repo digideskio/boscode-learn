@@ -81,6 +81,10 @@ See also [boscode](https://github.com/Quobject/boscode).
 *Arduino Tasks*  
 [arduino tasks](arduino-tasks.md)
 
+*Electron Tasks*  
+[electron tasks](electron-tasks.md)
+
+
 ## Installation
 
 1. Create a github account: https://github.com/. Use your school email address and set username to stlukes-{first part of school email}. Sign into github.
