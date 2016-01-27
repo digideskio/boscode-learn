@@ -1,0 +1,22 @@
+{
+  "name": "electron-nodebot",
+  "version": "1.0.0",
+  "description": "Control arduino with NodeJS, Socket.io, Johnny Five and Electron",
+  "scripts": {
+     "client": "electron client/main.js",
+     "server": "node server/index.js"
+  },
+  "author": "Matthias Ludwig <mludwig@quobject.io>",
+  "license": "MIT", 
+  "devDependencies": {
+    "electron-prebuilt": "^0.36.0"
+  },
+  "dependencies": {
+    "express": "^4.13.4",
+    "johnny-five": "^0.9.19",
+    "socket.io": "^1.4.5",
+    "socket.io-client": "^1.4.5",
+    "bootstrap": "^3.3.6",
+    "jquery": "^2.2.0"
+  }
+}
