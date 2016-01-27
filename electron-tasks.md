@@ -25,3 +25,11 @@ ___
 * In visual studio code: File > Open Folder... `c:\code\boscode-learn\code\electron\01`.
 * Inspect the files `main.js, index.html, program.js`
 
+## 02 Dice Image
+
+* In your terminal `cd c:\code\boscode-learn\code\electron\02`.
+* `npm install`
+* `npm start`
+* In visual studio code: File > Open Folder... `c:\code\boscode-learn\code\electron\02`.
+* Inspect the files `main.js, index.html, program.js`
+
