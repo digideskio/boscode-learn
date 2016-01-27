@@ -34,8 +34,10 @@ ___
 
 * In terminal/powershell `cd c:\code\boscode-learn\code\arduino\01`.
 * `npm install johnny-five`
-* In visual studio code: File > Open Folder... `c:\code\boscode-learn\code\arduino\01`.
-Run code examples from the terminal e.g. `node code/CIRC01-code-led-a-strobe.js`
+* `git clone https://github.com/AnnaGerber/node-ardx.git && cd node-ardx`
+* In visual studio code: File > Open Folder... `C:\code\boscode-learn\code\arduino\01\`.
+* Setup circuit 1 http://node-ardx.org/exercises/1
+* Run code examples from the terminal e.g. `node code/CIRC01-code-led-a-strobe.js`
 
 Complete Exercises 1-14 at http://node-ardx.org/
 
@@ -44,7 +46,7 @@ ___
 ## 02 Arduino with Electron UI Getting Started
 
 * Setup arduino board with one LED [as described here](http://node-ardx.org/exercises/1)
-* In your Arduino software upload `File > Examples > Firmata > StandardFirmataPlus`
+* If not done already, with your Arduino software upload `File > Examples > Firmata > StandardFirmataPlus`
 * In your first terminal `cd c:\code\boscode-learn\code\arduino\02`.
 * `npm install`
 * `npm run server`
