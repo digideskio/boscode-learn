@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Quobject 02 Arduino with Electron UI Getting Started</title>
+    <title>Quobject 04 Arduino with Electron UI Twisting</title>
     <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
     <script>window.$ = window.jQuery = require('jquery');</script>
     <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
@@ -10,16 +10,15 @@
     <script src="program.js"></script>
 </head>
 <body>
-
-    <div class="container">
-        <div class="row">
-            <button id="onButton"  type="button" class="btn btn-primary">On</button>
+    <div class="progress">
+        <div id="potentiometer-progress-bar" class="progress-bar" role="progressbar" aria-valuenow="70"
+             aria-valuemin="0" aria-valuemax="255" >
+            <span class="sr-only">70% Complete</span>
         </div>
+    </div>
+    <div class="container">       
         <div class="row">
-            <button id="offButton" type="button" class="btn btn-primary">Off</button>
-        </div>
-        <div class="row">
-            <button id="strobeButton" type="button" class="btn btn-primary">Strobe</button>
+            <p id="outputP" >12</p>
         </div>
     </div>
 

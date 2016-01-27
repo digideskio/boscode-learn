@@ -1,7 +1,7 @@
 {
-  "name": "electron-nodebot-02",
+  "name": "electron-nodebot-03",
   "version": "1.0.0",
-  "description": "02 Arduino with Electron UI Getting Started",
+  "description": "03 Arduino with Electron UI Button Pressing",
   "scripts": {
      "client": "electron client/main.js",
      "server": "node server/index.js"

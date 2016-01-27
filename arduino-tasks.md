@@ -4,6 +4,10 @@
 
 [Installation]( #Installation )    
 [01 Arduino Experimenter's Guide for NodeJS](#01-arduino-experimenters-guide-for-nodejs)  
+[02 Arduino with Electron UI Getting Started]()  
+[03 Arduino with Electron UI Button Pressing]()  
+[04 Arduino with Electron UI Twisting]()  
+
 
 ___
 
@@ -63,4 +67,47 @@ ___
    index.js
 ```
 ___
+
+## 03 Arduino with Electron UI Button Pressing
+
+* Setup arduino board with one LED and two buttons [as described here](http://node-ardx.org/exercises/7)
+* If not done already, with your Arduino software upload `File > Examples > Firmata > StandardFirmataPlus`
+* In your first terminal `cd c:\code\boscode-learn\code\arduino\03`.
+* `npm install`
+* `npm run server`
+* Open a second terminal `cd c:\code\boscode-learn\code\arduino\03`.
+* `npm run client`
+* In visual studio code: File > Open Folder... `c:\code\boscode-learn\code\arduino\03`.
+* Inspect files:
+```bash
+ client
+   index.html
+   main.js
+   program.js
+ server
+   index.js
+```
+___
+
+## 04 Arduino with Electron UI Twisting
+
+* Setup arduino board with one LED and one potentiometer [as described here](http://node-ardx.org/exercises/8)
+* If not done already, with your Arduino software upload `File > Examples > Firmata > StandardFirmataPlus`
+* In your first terminal `cd c:\code\boscode-learn\code\arduino\04`.
+* `npm install`
+* `npm run server`
+* Open a second terminal `cd c:\code\boscode-learn\code\arduino\04`.
+* `npm run client`
+* In visual studio code: File > Open Folder... `c:\code\boscode-learn\code\arduino\04`.
+* Inspect files:
+```bash
+ client
+   index.html
+   main.js
+   program.js
+ server
+   index.js
+```
+___
+
 
