@@ -84,6 +84,8 @@ See also [boscode](https://github.com/Quobject/boscode).
 *Electron Tasks*  
 [electron tasks](electron-tasks.md)
 
+*Object oriented paradigm*  
+[1 Object oriented paradigm](https://github.com/Quobject/boscode-doc/blob/master/doc/SDD/learning_activities.md)
 
 ## Installation
 
