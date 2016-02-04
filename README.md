@@ -99,7 +99,7 @@ See also [boscode](https://github.com/Quobject/boscode).
   * Choose a template: `Custom`
   * Hit 'Create workspace' button
 4. Inside your workspace on the left side right click the folder name 'boscode-learn' and select 'Open Terminal Here'
-5. In your terminal type the commant `npm install`
+5. In your terminal type the command `npm install`
 
 ## Useful bash terminal commands
 
