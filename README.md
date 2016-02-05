@@ -76,13 +76,13 @@ See also [boscode](https://github.com/Quobject/boscode).
 
 
 *Codecademy Tasks*  
-[codecademy tasks](codecademy-tasks.md)
+[codecademy tasks](https://github.com/Quobject/boscode-doc/blob/master/doc/codecademy/codecademy-tasks.md)
 
 *Arduino Tasks*  
-[arduino tasks](arduino-tasks.md)
+[arduino tasks](https://github.com/Quobject/boscode-doc/blob/master/doc/arduino/arduino-tasks.md)
 
 *Electron Tasks*  
-[electron tasks](electron-tasks.md)
+[electron tasks](https://github.com/Quobject/boscode-doc/blob/master/doc/electron/electron-tasks.md)
 
 *Object oriented paradigm*  
 [1 Object oriented paradigm](https://github.com/Quobject/boscode-doc/blob/master/doc/SDD/learning_activities.md)
