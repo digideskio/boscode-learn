@@ -90,6 +90,10 @@ See also [boscode](https://github.com/Quobject/boscode).
 *Google Apps Script Tasks*  
 [Google Apps Script Tasks](https://github.com/Quobject/boscode-doc/blob/master/doc/google-apps-script/google-apps-script-tasks.md)
 
+*Web tasks*
+
+[Web tasks](https://github.com/Quobject/boscode-doc/blob/master/doc/web/web-tasks.md#web-tasks)
+
 ## Installation
 
 1. Create a github account: https://github.com/. Use your school email address and set username to stlukes-{first part of school email}. Sign into github.
