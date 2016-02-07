@@ -85,13 +85,12 @@ See also [boscode](https://github.com/Quobject/boscode).
 [electron tasks](https://github.com/Quobject/boscode-doc/blob/master/doc/electron/electron-tasks.md)
 
 *Object oriented paradigm*  
-[1 Object oriented paradigm](https://github.com/Quobject/boscode-doc/blob/master/doc/SDD/learning_activities.md)
+[1 Object oriented paradigm](https://github.com/Quobject/boscode-doc/blob/master/doc/SDD/learning_activities.md#1-object-oriented-paradigm)
 
 *Google Apps Script Tasks*  
 [Google Apps Script Tasks](https://github.com/Quobject/boscode-doc/blob/master/doc/google-apps-script/google-apps-script-tasks.md)
 
-*Web tasks*
-
+*Web tasks*  
 [Web tasks](https://github.com/Quobject/boscode-doc/blob/master/doc/web/web-tasks.md#web-tasks)
 
 ## Installation
