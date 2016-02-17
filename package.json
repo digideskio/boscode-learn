@@ -1,6 +1,6 @@
 {
   "name": "boscode-learn",
-  "version": "0.0.7",
+  "version": "1.0.0",
   "description": "Learn javascript using boscode https://www.npmjs.com/package/boscode",
   "main": "lib/index.js",
   "scripts": {   
