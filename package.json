@@ -1,10 +1,9 @@
 {
   "name": "boscode-learn",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Learn javascript using boscode https://www.npmjs.com/package/boscode",
   "main": "lib/index.js",
-  "scripts": {   
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Quobject/boscode-learn.git"
@@ -18,9 +17,9 @@
     "url": "https://github.com/Quobject/boscode-learn/issues"
   },
   "homepage": "https://github.com/Quobject/boscode-learn",
-  "devDependencies": {
-  },
+  "devDependencies": {},
   "dependencies": {
-    "boscode": "~0.0.7"
+    "boscode": "~0.0.7",
+    "johnny-five": "^0.9.21"
   }
 }
