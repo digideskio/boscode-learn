@@ -108,7 +108,7 @@ See also [boscode](https://github.com/Quobject/boscode).
 5. In your terminal type the command 
 
 ```bash
-npm install`
+npm install
 npm install -g eslint
 ```
 
