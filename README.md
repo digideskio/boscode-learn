@@ -163,7 +163,7 @@ boscode.display('Hello world');
 
 boscode.display('The answer is ', 4, 'km');
 ```
-3. Double click the file `app.js` and choose `Open Terminal Here`.
+3. Right click the file `app.js` and choose `Open Terminal Here`.
 4. Type `ll` to see the content of the current directory:
 ```js
 {yourname}:~/workspace/code/examples/01 (master) $ ll
