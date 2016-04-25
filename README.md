@@ -109,7 +109,6 @@ See also [boscode](https://github.com/Quobject/boscode).
 
 ```bash
 npm install
-npm install -g eslint
 ```
 
 ## Useful bash terminal commands
