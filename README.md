@@ -97,9 +97,9 @@ See also [boscode](https://github.com/Quobject/boscode).
 
 1. Create a cloud 9 account: cloud 9 https://c9.io/. Use your school email address and set username to stlukes-{first part of school email}. 
 2. In c9.io: Create a new workspace: 
-  * Workspace name: web
-  * Description: Learning javascript
-  * Hosted workspace: Public
+  * Workspace name: `boscode-learn`
+  * Description: `Learning javascript`
+  * Hosted workspace: `Public`
   * Clone from Git or Mercurial URL: `https://github.com/Quobject/boscode-learn.git`
   * Choose a template: `Blank`
   * Hit 'Create workspace' button
