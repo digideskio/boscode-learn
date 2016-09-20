@@ -72,11 +72,11 @@ See also [boscode](https://github.com/Quobject/boscode).
 [48 Staircases]( #48-staircases )   
 [49 Two-up]( #49-two-up )   
 [50 Rank Generator]( #50-rank-generator )   
-[51 Range check](  )   
-[52 Grade](  )   
-[53 Repeat the character](  )   
-[54 Group bits](  )   
-[55 Peasant multiplication](  )   
+[51 Range check]( #51-range-check )   
+[52 Grade]( #52-grade )   
+[53 Repeat the character]( #53-repeat-the-character )   
+[54 Group bits]( #54-group-bits )   
+[55 Peasant multiplication]( #55-peasant-multiplication )   
 
 
 
