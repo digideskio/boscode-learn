@@ -72,6 +72,11 @@ See also [boscode](https://github.com/Quobject/boscode).
 [48 Staircases]( #48-staircases )   
 [49 Two-up]( #49-two-up )   
 [50 Rank Generator]( #50-rank-generator )   
+[51 Range check](  )   
+[52 Grade](  )   
+[53 Repeat the character](  )   
+[54 Group bits](  )   
+[55 Peasant multiplication](  )   
 
 
 
@@ -2385,5 +2390,152 @@ Input should be from a textfile and output to the console.
 
 
 
+___
+
+### 51 Range check 
+
+In your cloud 9 workspace edit the file `/home/ubuntu/workspace/code/tasks/51/app.js`. Write a node.js JavaScript program that reads words from the console.
+When the length of the word is less equal 3, the program should display the string “too short”, and when the length of the word is greater equals 10, the program should display the string “too long”. If the word length is greater 3 and less than 10 the output should be “ok”.
+
+Example
+
+Input:
+```
+a
+word
+Password12345
+```
+
+Output:
+```
+too short
+ok
+too long
+```
+
+___
+
+### 52 Grade
+
+In your cloud 9 workspace edit the file `/home/ubuntu/workspace/code/tasks/52/app.js`. 2.
+Write a node.js JavaScript that reads from a text file. The text file contains rows of numbers each between 0 and 100. 
+For every row the program should output the number, a dash “ - “ and a grade: A (for number >= 90), B (for number >= 70 and number < 90), and C (for number < 70).
 
 
+Example
+
+Input:
+```
+99
+32
+57
+87
+90
+```
+
+Output:
+```
+99 – A
+32 – C
+57 – C
+87 – B
+90 - A
+```
+
+___
+
+### 53 Repeat the character
+
+In your cloud 9 workspace edit the file `/home/ubuntu/workspace/code/tasks/53/app.js`. 3.
+Write a node.js JavaScript program that reads input from a text file. 
+The file contains rows each with a character and a non-negative number separated by a space. 
+The output should show the character repeated n times, where n is the number.
+
+
+Example
+
+Input:
+```
+# 3
+# 4
+# 5
+# 4
+# 3
+@ 1
+@ 0
+% 10
+```
+
+Output:
+```
+# 3
+# 4
+# 5
+# 4
+# 3
+@ 1
+@ 0
+% 10
+```
+
+___
+
+### 54 Group bits
+
+In your cloud 9 workspace edit the file `/home/ubuntu/workspace/code/tasks/54/app.js`. 4.
+Write a node.js JavaScript program that reads from a text file. The text file contains rows of strings containing 0 and 1. 
+For each row the program should group the input into groups of 8 each group separated by a space. 
+If the number of characters is not a multiple of 8 the program should fill up with zeros from the left. 
+
+
+Example
+
+Input:
+```
+1010
+111110000
+10101010111101010101 
+```
+
+Output:
+```
+00001010
+00000001 11110000
+00001010 10101111 01010101
+```
+
+___
+
+### 55 Peasant multiplication
+
+In your cloud 9 workspace edit the file `/home/ubuntu/workspace/code/tasks/55/app.js`. 5. Peasant multiplication is an ancient method of multiplication which does not require people to memorise their times tables. The algorithm for peasant multiplication is somewhat similar to that used by modern computers to perform binary multiplication and division.
+Here is an example of peasant multiplication used to calculate 13 times 14 (which gives the result 182).
+
+![example of peasant multiplication][images/peasant.png]
+
+Write a node.js JavaScript program that implements the peasant multiplication. The program should read from the console.
+
+Example 1
+
+Input:
+```
+13
+14
+```
+
+Output:
+```
+182
+```
+Example 2
+
+Input:
+```
+12
+14
+```
+
+Output:
+```
+48
+```
