@@ -2468,14 +2468,14 @@ Input:
 
 Output:
 ```
-# 3
-# 4
-# 5
-# 4
-# 3
-@ 1
-@ 0
-% 10
+###
+####
+#####
+####
+###
+@
+
+%%%%%%%%%%
 ```
 
 ___
@@ -2511,7 +2511,7 @@ ___
 In your cloud 9 workspace edit the file `/home/ubuntu/workspace/code/tasks/55/app.js`. 5. Peasant multiplication is an ancient method of multiplication which does not require people to memorise their times tables. The algorithm for peasant multiplication is somewhat similar to that used by modern computers to perform binary multiplication and division.
 Here is an example of peasant multiplication used to calculate 13 times 14 (which gives the result 182).
 
-![example of peasant multiplication][images/peasant.png]
+![example of peasant multiplication](images/peasant.png)
 
 Write a node.js JavaScript program that implements the peasant multiplication. The program should read from the console.
 
