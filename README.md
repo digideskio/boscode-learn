@@ -77,8 +77,13 @@ See also [boscode](https://github.com/Quobject/boscode).
 [53 Repeat the character]( #53-repeat-the-character )   
 [54 Group bits]( #54-group-bits )   
 [55 Peasant multiplication]( #55-peasant-multiplication )   
+[56 Two words]( #56-two-words )  
 
-
+[57 Sum all between]( #56-two-words )  
+[58 Number words]( #56-two-words )  
+[59 Count special characters]( #56-two-words )  
+[60 Replace the second character]( #56-two-words )  
+ 
 
 *Codecademy Tasks*  
 [codecademy tasks](https://github.com/Quobject/boscode-doc/blob/master/doc/codecademy/codecademy-tasks.md)
@@ -2539,3 +2544,156 @@ Output:
 ```
 48
 ```
+
+
+___
+
+### 56 Two words
+
+In your cloud 9 workspace edit the file `/home/ubuntu/workspace/code/tasks/56/app.js`. Write 
+a program that reads in two words from the console and prints out both words ordered 
+by the length of the words with the longest word first. 
+If both words have the same length then the first word should be printed first
+
+Example 1
+
+Input:
+```
+first
+second
+```
+
+Output:
+```
+second first
+```
+Example 2
+
+Input:
+```
+short
+long
+```
+
+Output:
+```
+short long
+```
+Example 3
+
+Input:
+```
+same
+four
+```
+
+Output:
+```
+same four
+```
+___
+
+### 57 Sum all between
+
+In your cloud 9 workspace edit the file `/home/ubuntu/workspace/code/tasks/57/app.js`. 
+Write a program that reads in two numbers from the console and sums up all numbers 
+that are in between those two numbers including both numbers.   
+
+You can assume the second number is always greater than the first.
+
+Examples:
+
+Example 1
+
+Input:
+```
+1
+2
+```
+
+Output:
+```
+3
+```
+Example 2
+
+Input:
+```
+1
+3
+```
+
+Output:
+```
+6
+```
+Example 3
+
+Input:
+```
+5
+10
+```
+
+Output:
+```
+45
+```
+
+___
+
+
+### 58 Number words
+
+In your cloud 9 workspace edit the file `/home/ubuntu/workspace/code/tasks/58/app.js`. 
+Write a program which, given a number between 1 and 20 prints out the number as a 
+word. The input needs to be read from a text file. To get full marks your solution 
+should be elegant (use of arrays, loop…).   
+
+You can assume the second number is always greater than the first.
+
+Examples:
+
+| Input         | Output        | 
+|---------------|---------------| 
+| 1             | one           | 
+| 11            | eleven        | 
+| 19            | nineteen      | 
+| 4             | four          | 
+
+
+___
+
+
+### 59 Count special characters
+
+In your cloud 9 workspace edit the file `/home/ubuntu/workspace/code/tasks/59/app.js`. 
+Write a program that reads a text file containing strings made up of the three 
+characters #$%. For each line the program counts how many times each character occurs.
+
+
+Examples:
+
+| Input         | Output        | 
+|---------------|---------------| 
+| ####          | #:4 %:0 $:0   | 
+| ###%%%$       | #:3 %:3 $:1   | 
+| $$$$$         | #:0 %:0 $:5   | 
+
+___
+
+### 60 Replace the second character
+
+In your cloud 9 workspace edit the file `/home/ubuntu/workspace/code/tasks/60/app.js`. 
+Write a program that reads a text file containing words per line. The program should 
+replace every second character of each word with ‘_’.
+
+Examples:
+
+| Input          | Output         | 
+|----------------|----------------| 
+| Hello world    | H_llo w_orld   | 
+| Lorem ipsum    | L_rem i_sum    | 
+| dolor sit amet | D_lor s_t a_et | 
+
+___
