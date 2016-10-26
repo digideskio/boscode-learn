@@ -78,11 +78,10 @@ See also [boscode](https://github.com/Quobject/boscode).
 [54 Group bits]( #54-group-bits )   
 [55 Peasant multiplication]( #55-peasant-multiplication )   
 [56 Two words]( #56-two-words )  
-
-[57 Sum all between]( #56-two-words )  
-[58 Number words]( #56-two-words )  
-[59 Count special characters]( #56-two-words )  
-[60 Replace the second character]( #56-two-words )  
+[57 Sum all between]( #57-sum-all-between )  
+[58 Number words]( #58-number-words )  
+[59 Count special characters]( #59-count-special-characters )  
+[60 Replace the second character]( #60-replace-the-second-character )  
  
 
 *Codecademy Tasks*  
