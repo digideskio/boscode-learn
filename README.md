@@ -82,7 +82,7 @@ See also [boscode](https://github.com/Quobject/boscode).
 [58 Number words]( #58-number-words )  
 [59 Count special characters]( #59-count-special-characters )  
 [60 Replace the second character]( #60-replace-the-second-character )   
-[61 64 Doors]( #61-sixty-four-doors )   
+[61 Sixty Four Doors]( #61-sixty-four-doors )   
 [62 Goonerism Spenerator] ( #62-goonerism-spenerator )  
 [63 Partitions] ( #63-partitions )  
 
