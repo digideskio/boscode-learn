@@ -81,10 +81,10 @@ See also [boscode](https://github.com/Quobject/boscode).
 [57 Sum all between]( #57-sum-all-between )  
 [58 Number words]( #58-number-words )  
 [59 Count special characters]( #59-count-special-characters )  
-[60 Replace the second character]( #60-replace-the-second-character )  
-[61 64 Doors]( #61-sixty-four-doors ) 
-[62 Goonerism Spenerator] ( #62-goonerism-spenerator )
-[63 Partitions] ( #63-partitions )
+[60 Replace the second character]( #60-replace-the-second-character )   
+[61 64 Doors]( #61-sixty-four-doors )   
+[62 Goonerism Spenerator] ( #62-goonerism-spenerator )  
+[63 Partitions] ( #63-partitions )  
 
 *Codecademy Tasks*  
 [codecademy tasks](https://github.com/Quobject/boscode-doc/blob/master/doc/codecademy/codecademy-tasks.md)
