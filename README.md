@@ -82,9 +82,9 @@ See also [boscode](https://github.com/Quobject/boscode).
 [58 Number words]( #58-number-words )  
 [59 Count special characters]( #59-count-special-characters )  
 [60 Replace the second character]( #60-replace-the-second-character )  
-[61 64 Doors]( #64-sixty-four-doors ) 
-[62 Goonerism Spenerator] ()
-
+[61 64 Doors]( #61-sixty-four-doors ) 
+[62 Goonerism Spenerator] ( #62-goonerism-spenerator )
+[63 Partitions] ( #63-partitions )
 
 *Codecademy Tasks*  
 [codecademy tasks](https://github.com/Quobject/boscode-doc/blob/master/doc/codecademy/codecademy-tasks.md)
@@ -2729,7 +2729,7 @@ Spoonerisms are phrases where the non-vowel prefixes of non-trivial words are mi
 "a crushing blow" might become "a blushing crow". They are named after the Reverend William Spooner (1844–1930), 
 an Oxford lecturer whose tongue (it is said) could never keep up with his thought processes.
 
-The spoonerism generator to be written to solve this task must follow certain rules.
+The spoonerism generator to be written to solve this task must follow certain rules.   
 1. Each input phrase consists of words in lower case separated by a space.  
 2. Trivial words are unchanged (see list below).  
 3. Words starting with a vowel (a e i o u) are unchanged.  
@@ -2795,8 +2795,65 @@ the quick brown fox jumps over the lazy dog
 back home after jiving she expired with quizzicality
 ```
 
+
 ___
 
+### 63 Partitions
 
+A partitioning algorithm rearranges a list of values into contiguous groups that have similar properties. 
+The boundary between adjacent groups is called a partition. The partitioning algorithm to be developed for 
+this task moves negative elements to the left of the array, moves positive elements to the right of the array, 
+and moves zero elements to the middle. Within the three partitioned groups the order of values doesn't matter 
+(this is not a sorting algorithm on its own). Partitioning is trivial if an additional array is used, 
+but the problem is more interesting if only scalar (single element) variables are used.
+
+Your task
+
+Write a program that partitions lists of integers. The first line of input contains the number of 
+lists and their length (between 1 and 25). Each subsequent line contains a list, with elements separated 
+by a space. The program should display the partitioned lists, one per line. For display purposes, 
+the partitions are to be shown with a vertical bar and a space either side.
+
+Example
+
+The upper chart on right shows the list
+```
+4 0 -5 -2 1 0 8 -9 6 4 0 7 -5
+```
+It has many possible partitionings, one of which is shown on the lower chart. It would be displayed as   
+```
+-5 -9 -5 -2 | 0 0 0 | 8 6 4 1 7 4
+````
+
+
+Restrictions
+
+You may use only one array or list structure to hold the original list, and that array must be partitioned 
+in place by moving or exchanging elements. Elements must be inspected and altered by indexing, no high order 
+functions such as map or equivalent may be used. Apart from input and output, your algorithm must not make more than 2 passes over the array.
+
+
+Recommended Approach
+
+Although you can try to do a 3-way partition in one pass, a good approach is to write a much simpler 
+2-way partition procedure, and use it twice, once to push elements of a particular sign to the appropriate end, 
+and then to partition out zeroes in the other part of the array. Each pass will handle zeroes slightly differently.
+
+Test data
+
+Test your program using the following input.
+
+```
+8 17
+-7 -9 -3 -4 -66 -3 -2 1 7 5 32 1 4 67 8 5 3
+1 2 4 3 7 2 0 3 1 0 0 4 1 8 0 3 0
+-1 -2 -9 -4 -3 -1 -7 -88 -34 -21 -3 -76 -4 -9 -12 -51 -94
+0 4 -3 0 1 1 0 -4 -5 5 0 3 -4 5 2 7 0
+10 9 8 7 6 5 4 3 2 1 0 -1 -2 -3 -4 -5 -6
+-1 -1 -1 -1 -1 3 -2 -3 1 0 1 1 0 1 1 1 1
+0 1 2 3 2 1 0 -1 -2 -3 -2 -1 0 1 0 1 0
+1 2 3 2 1 2 3 2 1 2 3 2 1 2 3 2 1
+```
+___
 
 
