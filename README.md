@@ -82,7 +82,9 @@ See also [boscode](https://github.com/Quobject/boscode).
 [58 Number words]( #58-number-words )  
 [59 Count special characters]( #59-count-special-characters )  
 [60 Replace the second character]( #60-replace-the-second-character )  
- 
+[61 64 Doors]( #64-sixty-four-doors ) 
+[62 Goonerism Spenerator] ()
+
 
 *Codecademy Tasks*  
 [codecademy tasks](https://github.com/Quobject/boscode-doc/blob/master/doc/codecademy/codecademy-tasks.md)
@@ -2696,3 +2698,105 @@ Examples:
 | dolor sit amet | D_lor s_t a_et | 
 
 ___
+
+### 61 Sixty four Doors
+
+In a monastery in a faraway country there is a chamber with 64 doors numbered 1 to 64. 
+Every year the 64 monks that live in the monastery participate in the following ritual.
+
+All doors in the chamber are initially closed. Each monk is assigned a unique integer 
+between 1 and 64. The monks then enter the chamber one at a time, in numeric order 
+(though that doesn't affect the outcome). If a monk is assigned the integer k, he 
+changes the state of every k-th door. That is, if the door is closed he opens it 
+and if it's open he closes it.
+
+So the first monk changes every door (from closed to open), the second 
+changes doors #2, #4, #6 etc, the third changes #3, #6, #9 etc, and so on 
+until the last monk, who just changes #64.
+
+At the end of the ritual the doors that are currently open lead to 
+(spiritual) treasures, so their numbers are significant.
+
+In your cloud 9 workspace edit the file `/home/ubuntu/workspace/code/tasks/61/app.js`. 
+
+Write a program that simulates the ritual and displays the numbers of the doors 
+that are open at the end, on one line.
+___
+
+### 62 Goonerism Spenerator
+
+Spoonerisms are phrases where the non-vowel prefixes of non-trivial words are mixed up. For example, 
+"a crushing blow" might become "a blushing crow". They are named after the Reverend William Spooner (1844–1930), 
+an Oxford lecturer whose tongue (it is said) could never keep up with his thought processes.
+
+The spoonerism generator to be written to solve this task must follow certain rules.
+1. Each input phrase consists of words in lower case separated by a space.  
+2. Trivial words are unchanged (see list below).  
+3. Words starting with a vowel (a e i o u) are unchanged.  
+4. The prefix of each word starting with a non-vowel replaces the prefix in the next word to its right that has a prefix, with the last prefix replacing the first. A prefix consists either of all initial non-vowels or the special prefix "qu".
+
+For the purposes of this task, trivial words are words with 2 or fewer letters, or any of the following:  
+```
+for has have she that the this will with
+"for", "has", "have", "she", "that", "the", "this", "will", "with"
+```
+The quoted list may be suitable to copy to your program.
+
+
+Your task
+
+In your cloud 9 workspace edit the file `/home/ubuntu/workspace/code/tasks/62/app.js`. Write a program that reads in phrases from a text file and 
+displays the corresponding spoonerisms. The first line of input contains the number of phrases (up to 20). The remaining lines have one 
+phrase each. Each phrase has between 1 and 25 words, and a total length of up to 100 characters.
+
+
+Examples:
+
+```
+4
+bouncing tree
+a blushing crow
+we will have the flags hung out
+the three little pigs and the big bad wolf
+```
+
+produces...
+
+```
+trouncing bee
+a crushing blow
+we will have the hags flung out
+the wee thrittle ligs and the pig bad bolf
+```
+
+Test data
+
+Test your program using the following input text.
+
+```
+18
+belly jeans
+bat flattery
+flutter by
+pop corn
+this is the fun part
+my spoonerism generator
+a lack of pies
+go and take a shower
+i hate with my mind
+pain in the posterior
+anthropomorphism 
+hickory dickory dock
+the rain in spain falls mainly on the plain
+pack my box with frumpy dozen lusty jugs
+strange women lying in ponds distributing swords is no basis for a system of government
+this caged parrot is no more
+the quick brown fox jumps over the lazy dog
+back home after jiving she expired with quizzicality
+```
+
+___
+
+
+
+
