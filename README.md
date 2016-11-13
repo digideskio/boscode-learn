@@ -85,6 +85,7 @@ See also [boscode](https://github.com/Quobject/boscode).
 [61 Sixty Four Doors]( #61-sixty-four-doors )   
 [62 Goonerism Spenerator] ( #62-goonerism-spenerator )  
 [63 Partitions] ( #63-partitions )  
+[64 Murlin] ( #64-murlin )  
 
 *Codecademy Tasks*  
 [codecademy tasks](https://github.com/Quobject/boscode-doc/blob/master/doc/codecademy/codecademy-tasks.md)
@@ -2856,4 +2857,87 @@ Test your program using the following input.
 ```
 ___
 
+
+### 64 Murlin
+
+Murlin is a wizard who decodes URLs that have been encoded to disguise the true address of a malicious website. 
+The encoding itself is legitimate, and the codes are interpreted as the equivalent normal characters in an 
+address, but the user who clicks on one rarely knows what such a URL really refers to.
+
+A URL-encoded string consists of ordinary characters and 3-character escape sequences. 
+An escape sequence begins with a percent character (%) and is followed by two hexadecimal 
+digits, using either upper or lower case. The two hex digits represent the character code. 
+Murlin only has to deal with character codes in the printable ASCII character range, 
+space (32 or hex 20) through to ~ (126, or hex 7E). Ordinary characters are preserved 
+and each escape sequence is replaced by the character it represents.
+
+Write a program to provide Murlin’s functionality. Input consists up to 10 encoded 
+strings, one per line, with the first line containing the number of strings. Each 
+string is up to 100 characters in length. You may assume the strings are properly 
+constructed from printable characters.
+
+##Example
+
+##Input  
+
+```
+3
+Hello
+http://%77%77%77%2E%6D%61%6C%77%61%72%65%52%75%73%2E%63%6F%6D/www.furrykittens.com
+http://www.example.com.au/spaces%20%26%20funny%20%21%23%7c%20chars%20in%20name.pdf
+```
+
+##Output   
+
+```
+Hello
+http://www.malwareRus.com/www.furrykittens.com
+http://www.example.com.au/spaces & funny !#| chars in name.pdf
+```
+
+##Hexadecimal
+
+In case you haven’t interpreted hexadecimal (base-16) numbers before, here’s a quick summary:
+
+| Hex digit | Decimal |
+|-----------|---------|
+| 0         | 0       |
+| 1         | 1       |
+| 2         | 2       |
+| 3         | 3       |
+| 4         | 4       |
+| 5         | 5       |
+| 6         | 6       |
+| 7         | 7       |
+| 8         | 8       |
+| 9         | 9       |
+| A or a    | 10      |
+| B or b    | 11      |
+| C or c    | 12      |
+| D or d    | 13      |
+| E or e    | 14      |
+| F or f    | 15      |
+
+The decimal value of a 2-digit number d1d2 in base b is equal to
+
+```
+b * dec(d1) + dec(d2)
+```
+
+where dec returns the decimal value of a base-b digit.   
+
+##Test Data  
+
+You should test your program on the following data:   
+```
+8
+progcomp%40cse
+%3Ca%20href%3D%22www.don%27tgothere.info%22%3ETesting%3C%2Fa%3E
+%77%77%77%2E%75%72%6D%79%62%2A%2A%2A%2A%2E%72%75%2F%63%6C%69%63%6B%68%65%72%65/kiddysafe.org
+%66%74%70%3A%2F%2F%74%72%6F%6A%61%6E%73%34%75%2E%6F%72%67%2F%70%77%6E%65%64%21
+100%5exy
+ENCODED%20%25%37%34%25%37%37%25%36%39%25%36%33%25%36%35
+!*%21%2a()%28%29;:%3b%3a@&%40%26=+%3d%2b$,/%24%2c?#%2f%3f%23
+[]%5b%5d'%27<>%3c%3e{}%7b%7d"%22^~%5e%7e`.%60%2e
+```
 
